@@ -1,0 +1,89 @@
+Distrito,Tipo_Crime,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019
+Aveiro,Violencia Domestica Conjuge ou Analogo,1 278,1 335,1 581,1 466,1 275,1 358,1 538,1 444,1 424,1 452,1 530,1 717
+Beja,Violencia Domestica Conjuge ou Analogo,174,213,233,202,241,251,221,206,228,244,266,260
+Braga,Violencia Domestica Conjuge ou Analogo,1 094,1 264,1 564,1 413,1 433,1 588,1 421,1 407,1 495,1 555,1 565,1 692
+Braganca,Violencia Domestica Conjuge ou Analogo,220,232,324,309,281,281,276,253,257,245,241,291
+Castelo Branco,Violencia Domestica Conjuge ou Analogo,347,347,360,331,306,358,380,362,370,376,382,468
+Coimbra,Violencia Domestica Conjuge ou Analogo,923,956,952,949,903,1 002,1 002,902,932,824,782,815
+Evora,Violencia Domestica Conjuge ou Analogo,243,343,347,373,382,331,301,330,352,340,325,312
+Faro,Violencia Domestica Conjuge ou Analogo,898,986,1 202,1 086,1 079,1 029,1 063,1 097,1 178,1 211,1 171,1 377
+Guarda,Violencia Domestica Conjuge ou Analogo,198,207,243,258,230,270,313,336,288,327,314,341
+Leiria,Violencia Domestica Conjuge ou Analogo,895,927,1 024,865,791,732,757,768,730,752,723,824
+Lisboa,Violencia Domestica Conjuge ou Analogo,4 619,5 460,5 612,5 232,4 649,4 878,4 960,4 961,5 242,5 190,4 979,5 598
+Portalegre,Violencia Domestica Conjuge ou Analogo,185,239,231,206,211,250,229,284,300,272,285,283
+Porto,Violencia Domestica Conjuge ou Analogo,4 775,5 424,5 392,5 080,4 537,4 425,4 355,4 051,4 139,3 996,4 003,4 237
+Santarem,Violencia Domestica Conjuge ou Analogo,653,755,833,803,824,838,787,827,764,698,655,915
+Setubal,Violencia Domestica Conjuge ou Analogo,1 267,1 672,2 033,1 919,1 920,2 046,1 990,1 932,1 880,1 959,2 040,2 329
+Viana do Castelo,Violencia Domestica Conjuge ou Analogo,384,461,472,430,394,413,442,467,455,454,518,558
+Vila Real,Violencia Domestica Conjuge ou Analogo,262,317,450,423,395,446,467,455,401,363,362,413
+Viseu,Violencia Domestica Conjuge ou Analogo,577,625,662,681,718,678,764,718,706,688,708,799
+Ilha Terceira,Violencia Domestica Conjuge ou Analogo,84,115,171,165,190,161,186,132,135,175,171,186
+Ilha do Corvo,Violencia Domestica Conjuge ou Analogo,,,,,,,,3,,,,
+Ilha do Faial,Violencia Domestica Conjuge ou Analogo,46,43,67,51,36,45,33,39,47,41,33,37
+Ilha das Flores,Violencia Domestica Conjuge ou Analogo,9,15,9,13,9,13,22,12,11,13,7,14
+Ilha do Pico,Violencia Domestica Conjuge ou Analogo,46,31,45,30,32,37,27,26,36,20,21,18
+Ilha de Santa Maria,Violencia Domestica Conjuge ou Analogo,14,16,8,20,18,17,6,15,11,9,12,11
+Ilha de Sao Miguel,Violencia Domestica Conjuge ou Analogo,757,874,655,699,605,620,578,561,571,598,544,540
+Ilha da Madeira,Violencia Domestica Conjuge ou Analogo,415,371,622,705,758,817,810,841,773,752,726,697
+Ilha de Porto Santo,Violencia Domestica Conjuge ou Analogo,13,8,15,11,9,15,10,17,18,6,14,22
+Ilha da Graciosa,Violencia Domestica Conjuge ou Analogo,,3,10,7,9,14,13,12,11,11,21,14
+Ilha de Sao Jorge,Violencia Domestica Conjuge ou Analogo,8,12,10,15,16,15,12,11,17,24,20,19
+N.E.,Violencia Domestica Conjuge ou Analogo,10,12,,,,,,,,3,5,6
+Aveiro,Violencia Domestica Menores,37,48,37,33,23,21,34,19,25,25,22,26
+Beja,Violencia Domestica Menores,8,5,8,11,6,9,5,3,10,4,11,
+Braga,Violencia Domestica Menores,20,25,34,13,18,23,29,22,19,21,18,31
+Braganca,Violencia Domestica Menores,4,7,3,8,11,9,6,7,9,3,4,
+Castelo Branco,Violencia Domestica Menores,12,10,13,15,9,16,11,13,18,11,11,13
+Coimbra,Violencia Domestica Menores,28,15,16,13,18,18,16,24,8,13,8,22
+Evora,Violencia Domestica Menores,8,6,11,6,14,4,6,7,5,11,6,17
+Faro,Violencia Domestica Menores,54,37,26,26,32,19,22,8,19,21,31,24
+Guarda,Violencia Domestica Menores,10,9,11,6,11,5,7,13,16,10,16,12
+Leiria,Violencia Domestica Menores,37,41,20,27,20,23,12,14,11,10,14,24
+Lisboa,Violencia Domestica Menores,155,117,161,136,147,136,164,169,150,141,159,199
+Portalegre,Violencia Domestica Menores,4,5,11,6,4,4,,3,11,3,6,3
+Porto,Violencia Domestica Menores,112,135,114,140,72,63,50,38,64,48,59,62
+Santarem,Violencia Domestica Menores,33,26,22,18,15,28,18,24,14,12,20,19
+Setubal,Violencia Domestica Menores,57,51,48,54,53,43,49,40,48,37,53,53
+Viana do Castelo,Violencia Domestica Menores,15,12,10,,11,5,6,7,3,4,9,9
+Vila Real,Violencia Domestica Menores,16,5,8,6,8,11,3,4,4,5,3,10
+Viseu,Violencia Domestica Menores,26,18,10,19,13,11,20,16,8,6,12,12
+Ilha Terceira,Violencia Domestica Menores,,,5,9,12,,7,5,3,4,,
+Ilha do Faial,Violencia Domestica Menores,4,,,,,,,3,,,3,
+Ilha das Flores,Violencia Domestica Menores,,,,,,,,,,,,
+Ilha do Pico,Violencia Domestica Menores,,,,3,,,,,,,,
+Ilha de Santa Maria,Violencia Domestica Menores,,,,,,,,,,,,
+Ilha de Sao Miguel,Violencia Domestica Menores,18,12,23,16,12,19,12,12,10,25,15,20
+Ilha da Madeira,Violencia Domestica Menores,18,18,16,25,19,15,20,21,11,14,4,16
+Ilha de Porto Santo,Violencia Domestica Menores,,,,,,,,,,,,
+Ilha da Graciosa,Violencia Domestica Menores,,,,,,,,,,,,
+Ilha de Sao Jorge,Violencia Domestica Menores,,,,,,,,,,,,
+N.E.,Violencia Domestica Menores,,,,,,,,,,,,
+Aveiro,Outros Violencia Domestica,254,261,360,221,232,238,247,240,260,220,253,293
+Beja,Outros Violencia Domestica,25,40,34,34,71,52,46,38,29,32,49,48
+Braga,Outros Violencia Domestica,150,179,219,259,227,237,213,236,281,261,219,231
+Braganca,Outros Violencia Domestica,31,29,31,41,59,66,84,80,75,54,48,50
+Castelo Branco,Outros Violencia Domestica,31,72,113,119,106,77,86,70,78,70,74,112
+Coimbra,Outros Violencia Domestica,124,106,92,63,78,104,113,118,116,98,116,136
+Evora,Outros Violencia Domestica,31,29,36,44,28,40,49,32,33,46,36,49
+Faro,Outros Violencia Domestica,148,149,216,219,230,218,228,216,169,205,206,211
+Guarda,Outros Violencia Domestica,25,28,31,27,35,31,33,39,31,30,37,54
+Leiria,Outros Violencia Domestica,132,126,164,147,178,151,161,128,118,133,145,210
+Lisboa,Outros Violencia Domestica,648,926,1 309,1 483,978,940,789,819,835,954,853,924
+Portalegre,Outros Violencia Domestica,25,33,42,27,31,32,19,26,34,25,39,26
+Porto,Outros Violencia Domestica,868,874,852,817,584,649,729,596,590,583,556,699
+Santarem,Outros Violencia Domestica,78,105,153,157,148,140,121,136,129,97,108,123
+Setubal,Outros Violencia Domestica,176,266,302,306,332,303,294,311,338,323,373,447
+Viana do Castelo,Outros Violencia Domestica,86,71,103,82,78,84,58,49,58,40,52,69
+Vila Real,Outros Violencia Domestica,35,61,81,96,108,118,112,99,106,86,83,63
+Viseu,Outros Violencia Domestica,50,67,70,71,63,67,75,93,85,84,93,118
+Ilha Terceira,Outros Violencia Domestica,9,13,32,18,21,16,26,12,17,18,17,24
+Ilha do Faial,Outros Violencia Domestica,12,25,3,3,16,13,13,10,17,8,13,16
+Ilha das Flores,Outros Violencia Domestica,4,,,,,,,3,5,3,,7
+Ilha do Pico,Outros Violencia Domestica,3,,,8,11,3,9,3,8,7,7,9
+Ilha de Santa Maria,Outros Violencia Domestica,,,,5,5,,3,3,8,,4,
+Ilha de Sao Miguel,Outros Violencia Domestica,80,87,155,169,172,142,128,100,96,79,49,67
+Ilha da Madeira,Outros Violencia Domestica,56,85,179,220,206,193,186,181,228,211,127,121
+Ilha de Porto Santo,Outros Violencia Domestica,,,3,,,3,5,,6,,6,3
+Ilha da Graciosa,Outros Violencia Domestica,,,3,5,3,,,,3,7,3,4
+Ilha de Sao Jorge,Outros Violencia Domestica,,5,14,7,8,13,10,10,8,8,7,5
+N.E.,Outros Violencia Domestica,,,,,,,,,,,,
