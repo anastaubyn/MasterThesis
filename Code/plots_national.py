@@ -4,20 +4,22 @@ Created on Thu Mar  4 15:21:08 2021
 
 @author: Ana Clara St. Aubyn
 
-Gráficos Violência Doméstica Nacional
+Portuguese National Domestic Violence Plots
 
 """
 
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
+import os, inspect
+os.chdir(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))))
 
-#importar os dados
-data = pd.read_csv(r'C:\Users\anacs\Documents\NOVA IMS\Mestrado\Tese\Dados\nacional_tratados.csv')
+#Importing Data
+data = pd.read_csv(r'Data\national_treated.csv')
 
-#gráfico para o total
-data_total = data[data['Tipo_Crime']=='Total']
-data_total.drop(columns=['Tipo_Crime'], inplace=True)
+#Plot for Total Occurrences
+data_total = data[data['Crime']=='Total']
+data_total.drop(columns=['Crime'], inplace=True)
 data_total = data_total.transpose()
 data_total.reset_index(inplace=True)
 data_total.rename(columns={data_total.columns[0]: "Year", data_total.columns[1]: "Number of Occurrences"}, inplace=True)
@@ -34,8 +36,9 @@ ax.text(0.7, -0.15, 'Source: Direção-Geral da Política de Justiça (DGPJ)', t
 ax.set_title('Domestic Violence Occurrences as Registered by Police Authorities', fontsize=16, fontproperties=font)
 ax.set_xlabel('Year')
 ax.set_ylabel('Number of Occurrences')
+plt.savefig(r'Images\national_total.png')
 
-#gráfico para as categorias
+#Plot for Occurrences by Category
 data_categories = data.transpose()
 data_categories.columns = data_categories.iloc[0]
 data_categories = data_categories.iloc[1:]
@@ -54,8 +57,9 @@ ax.set_title('Domestic Violence Occurrences as Registered by Police Authorities 
 ax.set_xlabel('Year')
 ax.set_ylabel('Number of Occurrences')
 ax.legend(ncol=1)
+plt.savefig(r'Images\national_categories')
 
-#grafico para domestica conjuge
+#Plot for DVASA
 plt.figure(figsize=(14,6))
 ax = plt.subplot(111)
 ax.plot(data_categories['index'], data_categories["Violencia Domestica Conjuge ou Analogo"], label='Domestic Violence Against Spouse or Analogous',color='darkseagreen')
@@ -65,4 +69,4 @@ ax.text(0.7, -0.15, 'Source: Direção-Geral da Política de Justiça (DGPJ)', t
 ax.set_title('Domestic Violence Against Spouse or Analogous Occurrences as Registered by Police Authorities', fontsize=16, fontproperties=font)
 ax.set_xlabel('Year')
 ax.set_ylabel('Number of Occurrences')
-#ax.legend(ncol=1)
+plt.savefig(r'Images\national_DVASA.png')
