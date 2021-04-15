@@ -4,62 +4,60 @@ Created on Thu Mar  4 15:21:08 2021
 
 @author: Ana Clara St. Aubyn
 
-Tratamento de Dados Violência Doméstica Nacional
+Data Treatment Domestic Violence National Portugal
 
 """
 
 import pandas as pd
 import numpy as np
+import os, inspect
+os.chdir(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))))
 
-# importar dados
-data = pd.read_csv(r'C:\Users\anacs\Documents\NOVA IMS\Mestrado\Tese\Dados\Nacional.csv', delimiter=';')
+#Importing National Data
+data = pd.read_csv(r'Data\National.csv', delimiter=';')
 
-#eliminar linhas irrelevantes
+#Eliminate Irrelevant Rows
 data = data.iloc[5:]
 data.reset_index(drop=True, inplace=True)
 
-#colocar título certos nas colunas
+#Creating Titles for Columns
 data.columns = data.iloc[0]
 data = data.iloc[1:]
 
-#remover colunas só com null e colunas desnecessárias
+#Removing Null and Unnecessary Columns
 data.dropna(axis=1, how='all', inplace=True)
 data.drop([data.columns[0], data.columns[1]], axis=1, inplace=True)
-data.rename(columns={data.columns[0]: "Tipo_Crime"}, inplace=True)
+data.rename(columns={data.columns[0]: "Crime"}, inplace=True)
 
-#eliminar linhas para outros tipos de crime nivel 2
+#Eliminate Rows Referring to Other Type 2 Crimes
 data = data[data[data.columns[0]].notna()]
 
-#remover caracteres desconhecidos da coluna Tipo_Crime
-data['Tipo_Crime'] = data['Tipo_Crime'].str.replace("[^A-Za-z1234567890'-. ]", "")
+#Removing Unknown Characters from Crime
+data['Crime'] = data['Crime'].str.replace("[^A-Za-z1234567890'-. ]", "")
 
-#manter apenas violencia domestica
-data = data[data['Tipo_Crime'].str.contains('violncia domstica') | data['Tipo_Crime'].str.contains('Violncia domstica')]
+#Keeping Only Domestic Violence
+data = data[data['Crime'].str.contains('violncia domstica') | data['Crime'].str.contains('Violncia domstica')]
 
-#apagar anos sem dados
+#Remove Years With No Data
 data = data.replace('..', np.nan)
 data.dropna(axis=1, how='all', inplace=True)
 
-#meter os anos por ordem crescente
+#Sort Years in Ascending Order
 data = data[data.columns[::-1]]
 cols = data.columns.tolist()
 cols = cols[-1:] + cols[:-1]
 data = data[cols]
 del cols
 
-#linha de soma
+#Create a Total Row
 data[data.columns[1:].tolist()] = data[data.columns[1:].tolist()].apply(lambda x: x.str.replace(' ',''))
 data[data.columns[1:].tolist()] = data[data.columns[1:].tolist()].apply(pd.to_numeric)
 data.loc['Total']= data.sum(numeric_only=True, axis=0)
 data.reset_index(drop=True, inplace=True)
 
-#corrigir coluna Tipo_Crime
-data['Tipo_Crime'] = ['Violencia Domestica Conjuge ou Analogo', 'Violencia Domestica Menores', 'Outros Violencia Domestica', 'Total']
+#Correct Crime Column
+data['Crime'] = ['Violencia Domestica Conjuge ou Analogo', 'Violencia Domestica Menores', 'Outros Violencia Domestica', 'Total']
 
-#Exportar para CSV :)
-data.to_csv(r'C:\Users\anacs\Documents\NOVA IMS\Mestrado\Tese\Dados\nacional_tratados.csv', index=False)
+#Exportar as CSV
+data.to_csv(r'Data\national_treated.csv', index=False)
 
-#TESTAR CSV
-pd.read_csv(r'C:\Users\anacs\Documents\NOVA IMS\Mestrado\Tese\Dados\nacional_tratados.csv')
-
-# GOOD TO GO!#
