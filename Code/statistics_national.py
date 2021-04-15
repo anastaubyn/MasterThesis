@@ -4,18 +4,20 @@ Created on Wed Mar 10 15:21:30 2021
 
 @author: Ana Clara St. Aubyn
 
-Estatísticas Nacional
+Portuguese National Domestic Violence Statistics
 
 """
 
 import pandas as pd 
 import matplotlib.pyplot as plt
 import numpy as np
+import os, inspect
+os.chdir(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))))
 
 #Import data
-data = pd.read_csv(r'C:\Users\anacs\Documents\NOVA IMS\Mestrado\Tese\Dados\nacional_tratados.csv')
+data = pd.read_csv(r'Data\national_treated.csv')
 
-#Estatísticas Descritivas
+#Descriptive Statistics
 data = data.transpose()
 
 data.columns = data.iloc[0]
@@ -24,15 +26,15 @@ data = data.apply(pd.to_numeric)
 
 descriptive = data.describe()
 
-#Diferenças entre anos
+#Differences Between Years
 data = data.reindex([str(i) for i in range(2019,2007,-1)])
 data["dDVASA"] = data[data.columns[0]].diff(-1)
 data["dTotal"] = data[data.columns[3]].diff(-1)
 
-#Percentagem da mudança total causada por DVASA
+#Percentage of Total Change Caused by DVASA
 data['%DVASA'] = data['dDVASA']*100/data['dTotal']
 
-#Gráfico com as alterações
+#Plot With Yearly Changes
 data.index = data.index.astype(int)
 data = data.reindex(list(range(2008,2020)))
 
@@ -50,3 +52,4 @@ ax.set_ylabel('Number of Occurrences')
 #ax.set_xticklabels(data.index)
 plt.xticks(np.arange(2009, 2020, 1))
 ax.legend(ncol=1)
+plt.savefig(r'Images\absolute_changes.png')
