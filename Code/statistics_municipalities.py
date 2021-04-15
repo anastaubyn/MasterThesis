@@ -4,34 +4,36 @@ Created on Tue Mar  9 15:04:08 2021
 
 @author: Ana Clara St. Aubyn
 
-Estatísticas Municípios
+Creating DVASA Dataset
 
 """
 
 import pandas as pd
+import os, inspect
+os.chdir(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))))
 
-#Importar dados
-data = pd.read_csv(r'C:\Users\anacs\Documents\NOVA IMS\Mestrado\Tese\Dados\municipios_tratados.csv')
+#Importing Domestic Violence Data
+data = pd.read_csv(r'Data\municipios_tratados.csv')
 
-#Eliminar registos N.E.
+#Eliminate Rows Where the Municipality is not Defined (N.E.)
 ne = data.loc[data.Municipio == "N.E."]
 ne = ne.loc[ne.Tipo_Crime =='Violencia Domestica Conjuge ou Analogo'].values.flatten().tolist()[2:]
 data = data[data['Municipio']!='N.E.']
 
-#Ver municipios que não têm todas as categorias
+#Look for Municipalities that do not Have all Categories
 municipios = data.Municipio.value_counts()
 
-#Contagem de valores null por categoria e no total
+#Counting Null Values by Category
 for cat in list(data.Tipo_Crime.unique()):
     nan = data[data['Tipo_Crime']==cat].isna().sum().sum()
     print(str(cat) + ': ' + str(nan))
 del cat
 
-#Remover tudo menos DVASA
+#Removing all Categories Except for DVASA
 data = data[data['Tipo_Crime']=='Violencia Domestica Conjuge ou Analogo']
 data.drop(columns=['Tipo_Crime'], inplace=True)
 
-#Ver diferença entre total nacional DVASA e total municipios DVASA
+#See Difference Between National Total and Municipalities Total for DVASA Category
 data_total = pd.read_csv(r'C:\Users\anacs\Documents\NOVA IMS\Mestrado\Tese\Dados\nacional_tratados.csv')
 
 total = data_total.loc[data_total.Tipo_Crime == "Violencia Domestica Conjuge ou Analogo"].values.flatten().tolist()[1:]
@@ -40,21 +42,17 @@ diference = [a-b for a,b in zip(total, total_mun)]
 diference = [a-b for a,b in zip(diference, ne)]
 del total, total_mun
 
-#Substituir missing values
+#Replace Missing Values by 1
 data.fillna(1, inplace=True)
 
-#Fazer uma coluna para os anos
-data = data.melt(id_vars=["Tipo_Crime", "Municipio"], var_name="Ano", value_name="Value")
+#Turn Years into One Column
+data = data.melt(id_vars=["Municipio"], var_name="Ano", value_name="Value")
 data['Ano'] = data['Ano'].apply(pd.to_numeric)
 
-#Somar valores das três categorias para obter total por municipio
-for mun in list(data.Municipio.unique()):
-    for year in range(2008,2020):
-        line=['Total']
-        line.append(mun)
-        line.append(year)
-        line.append(data[(data['Municipio'] == mun) & (data['Ano']==year)]['Value'].sum())
-        data.loc[len(data)] = line
-    
-del line, mun, year
+del data_total, diference, municipios, ne
 
+#Export Final DVASA Dataset
+data.to_csv(r'Data\DVASA.csv', index=False)
+
+
+ 

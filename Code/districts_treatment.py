@@ -10,7 +10,6 @@ Data Treatment - Domestic Violence Districts Portugal
 
 import pandas as pd
 import numpy as np
-import os
 
 #importar dados
 data = pd.read_csv(r'C:\Users\anacs\Documents\NOVA IMS\Mestrado\Tese\Dados\Distrito.csv', delimiter=';')
