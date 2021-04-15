@@ -58,6 +58,6 @@ data.reset_index(drop=True, inplace=True)
 #Correct Crime Column
 data['Crime'] = ['Violencia Domestica Conjuge ou Analogo', 'Violencia Domestica Menores', 'Outros Violencia Domestica', 'Total']
 
-#Exportar as CSV
+#Export as CSV
 data.to_csv(r'Data\national_treated.csv', index=False)
 
