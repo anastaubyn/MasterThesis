@@ -44,9 +44,27 @@ for i in range(2009, 2020):
     data[str(i)] = data[str(i)].str.replace("[^A-Za-z1234567890'-. ]", "")
     data[str(i)] = data[str(i)].str.replace(",", ".")
     data[str(i)] = data[str(i)].str.replace("Rv ", "")
+del i
 
 #Convert Data to Numeric
 data[data.columns[1:].tolist()] = data[data.columns[1:].tolist()].apply(pd.to_numeric)
+
+#Check for Evolution on the National Level
+total_mun = data.sum(numeric_only=True, axis=0).tolist()
+total_mun = [round(x / 308, 2) for x in total_mun]
+
+import matplotlib.pyplot as plt
+plt.figure(figsize=(14,6))
+ax = plt.subplot(111)
+ax.plot(list(range(2009, 2020)), total_mun[1:], color='darkseagreen')
+ax.spines['right'].set_visible(False)
+ax.spines['top'].set_visible(False)
+ax.text(0.31, -0.15, 'Source: Pordata at https://www.pordata.pt/Municipios/%c3%8dndice+sint%c3%a9tico+de+fecundidade-739', transform=ax.transAxes)
+ax.set_title('Synthetic Fertility Index - National', fontsize=16)
+ax.set_xlabel('Year')
+ax.set_ylabel('Average Number of Children Born for Each Woman in Fertile Age')
+plt.savefig(r'Images\synthetic_fertility.png')
+
 
 #Turn Years into One Column
 data = data.melt(id_vars=["Municipality"], var_name="Year", value_name="Value")
