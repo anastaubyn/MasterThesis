@@ -16,6 +16,7 @@ Dvasa = pd.read_csv(r'Data\DVASA.csv')
 
 #Importing Explanatory Variables
 Fertility = pd.read_csv(r'Data\synthetic_fertility_index_final.csv')
+Old_Men = pd.read_csv(r'Data\old_men_final.csv')
 
 #Importing Helper Variables
 Population = pd.read_csv(r'Data\resident_population_final.csv')
@@ -67,3 +68,14 @@ del Population
 #Standardizing DVASA
 dfinal['Population1000'] = dfinal['Population']/1000
 dfinal['DVASA'] = dfinal['DVASA']/dfinal['Population1000']
+
+#Changing Name of Columns (Old_Men)
+Old_Men.rename(columns={"Value": "Old_Men"}, inplace=True)
+
+#Merging dfinal and Old_Men
+dfinal = dfinal.merge(Old_Men, on=["Municipality", "Year"], how = 'inner')
+del Old_Men
+
+#Standardizing Old_Men
+dfinal['Old_Men'] = (dfinal['Old_Men']*100)/dfinal['Population']
+dfinal.rename(columns={"Old_Men": "Men65"}, inplace=True)
