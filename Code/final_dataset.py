@@ -17,7 +17,10 @@ Dvasa = pd.read_csv(r'Data\DVASA.csv')
 #Importing Explanatory Variables
 Fertility = pd.read_csv(r'Data\synthetic_fertility_index_final.csv')
 
-#Checking if Municipality Names are the Same
+#Importing Helper Variables
+Population = pd.read_csv(r'Data\resident_population_final.csv')
+
+#Checking if Municipality Names are the Same (Fertility and Dvasa)
 mun_dvasa = Dvasa.Municipality.unique().tolist()
 mun_fertility = Fertility.Municipality.unique().tolist()
 mun_dvasa = sorted(mun_dvasa)
@@ -36,9 +39,27 @@ Dvasa['Municipality'] = Dvasa['Municipality'].str.replace("Santa Cruz  Graciosa 
 Dvasa['Municipality'] = Dvasa['Municipality'].str.replace("Calheta \\(Madeira\\)", "Calheta [R.A.M.]")
 del mun_dvasa, mun_fertility, dif
 
-#Changing Name of Columns
+#Changing Name of Columns (Dvasa and Fertility)
 Dvasa.rename(columns={"Value": "DVASA"}, inplace=True)
 Fertility.rename(columns={"Value": "Fertility"}, inplace=True)
 
 #Merging Dvasa and Fertility (Fertility has no Data for 2008)
 dfinal = Dvasa.merge(Fertility, on=["Municipality", "Year"], how = 'inner')
+
+del Dvasa, Fertility
+
+#Checking if Municipality Names are the Same (dfinal and Population)
+mun_dvasa = dfinal.Municipality.unique().tolist()
+mun_pop = Population.Municipality.unique().tolist()
+mun_dvasa = sorted(mun_dvasa)
+mun_pop = sorted(mun_pop)
+dif = list(set(mun_dvasa).symmetric_difference(mun_pop))
+del mun_dvasa, mun_pop, dif
+
+#Changing Name of Columns (Population)
+Population.rename(columns={"Value": "Population"}, inplace=True)
+
+#Merging dfinal and Population
+dfinal = dfinal.merge(Population, on=["Municipality", "Year"], how = 'inner')
+
+del Population
