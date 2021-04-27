@@ -19,6 +19,7 @@ Fertility = pd.read_csv(r'Data\synthetic_fertility_index_final.csv')
 Old_Men = pd.read_csv(r'Data\old_men_final.csv')
 Monthly_Gain = pd.read_csv(r'Data\monthly_gain_final.csv')
 Wage_Gap = pd.read_csv(r'Data\wage_gap_final.csv')
+Middle_Women = pd.read_csv(r'Data\middle_aged_women_final.csv')
 
 #Importing Helper Variables
 Population = pd.read_csv(r'Data\resident_population_final.csv')
@@ -95,3 +96,13 @@ Wage_Gap.rename(columns={"Value": "Wage_Gap"}, inplace=True)
 #Merging dfinal and Montlhy_Gain
 dfinal = dfinal.merge(Wage_Gap, on=["Municipality", "Year"], how = 'inner')
 del Wage_Gap
+
+#Changing Name of Columns (Middle_Women)
+Middle_Women.rename(columns={"Value": "Middle_Aged_Women"}, inplace=True)
+
+#Merging dfinal and Middle_Women
+dfinal = dfinal.merge(Middle_Women, on=["Municipality", "Year"], how = 'inner')
+del Middle_Women
+
+#Standardizing Middle_Aged_Women
+dfinal['Middle_Aged_Women'] = (dfinal['Middle_Aged_Women']*100)/dfinal['Population']
