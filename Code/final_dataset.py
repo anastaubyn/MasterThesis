@@ -18,6 +18,7 @@ Dvasa = pd.read_csv(r'Data\DVASA.csv')
 Fertility = pd.read_csv(r'Data\synthetic_fertility_index_final.csv')
 Old_Men = pd.read_csv(r'Data\old_men_final.csv')
 Monthly_Gain = pd.read_csv(r'Data\monthly_gain_final.csv')
+Wage_Gap = pd.read_csv(r'Data\wage_gap_final.csv')
 
 #Importing Helper Variables
 Population = pd.read_csv(r'Data\resident_population_final.csv')
@@ -87,3 +88,10 @@ Monthly_Gain.rename(columns={"Value": "Monthly_Gain"}, inplace=True)
 #Merging dfinal and Montlhy_Gain
 dfinal = dfinal.merge(Monthly_Gain, on=["Municipality", "Year"], how = 'inner')
 del Monthly_Gain
+
+#Changing Name of Columns (Wage_Gap)
+Wage_Gap.rename(columns={"Value": "Wage_Gap"}, inplace=True)
+
+#Merging dfinal and Montlhy_Gain
+dfinal = dfinal.merge(Wage_Gap, on=["Municipality", "Year"], how = 'inner')
+del Wage_Gap
