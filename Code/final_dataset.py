@@ -20,6 +20,9 @@ Old_Men = pd.read_csv(r'Data\old_men_final.csv')
 Monthly_Gain = pd.read_csv(r'Data\monthly_gain_final.csv')
 Wage_Gap = pd.read_csv(r'Data\wage_gap_final.csv')
 Middle_Women = pd.read_csv(r'Data\middle_aged_women_final.csv')
+Unemployment_Women = pd.read_csv(r'Data\unemployment_female_final.csv')
+Unemployment_Men = pd.read_csv(r'Data\unemployment_male_final.csv')
+Unemployment = pd.read_csv(r'Data\unemployment_total_final.csv')
 
 #Importing Helper Variables
 Population = pd.read_csv(r'Data\resident_population_final.csv')
@@ -106,3 +109,21 @@ del Middle_Women
 
 #Standardizing Middle_Aged_Women
 dfinal['Middle_Aged_Women'] = (dfinal['Middle_Aged_Women']*100)/dfinal['Population']
+
+#Changing Name of Columns (Unemployment)
+Unemployment.rename(columns={"Value": "Unemployment_Total"}, inplace=True)
+Unemployment_Men.rename(columns={"Value": "Unemployment_Male"}, inplace=True)
+Unemployment_Women.rename(columns={"Value": "Unemployment_Female"}, inplace=True)
+
+#Merging dfinal and Unemployment
+dfinal = dfinal.merge(Unemployment, on=["Municipality", "Year"], how = 'inner')
+del Unemployment
+dfinal = dfinal.merge(Unemployment_Men, on=["Municipality", "Year"], how = 'inner')
+del Unemployment_Men
+dfinal = dfinal.merge(Unemployment_Women, on=["Municipality", "Year"], how = 'inner')
+del Unemployment_Women
+
+#Standardizing Unemployment
+dfinal['Unemployment_Total'] = dfinal['Unemployment_Total']/dfinal['Population100']
+dfinal['Unemployment_Male'] = dfinal['Unemployment_Male']/dfinal['Population100']
+dfinal['Unemployment_Female'] = dfinal['Unemployment_Female']/dfinal['Population100']
