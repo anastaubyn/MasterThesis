@@ -69,8 +69,8 @@ dfinal = dfinal.merge(Population, on=["Municipality", "Year"], how = 'inner')
 del Population
 
 #Standardizing DVASA
-dfinal['Population1000'] = dfinal['Population']/1000
-dfinal['DVASA'] = dfinal['DVASA']/dfinal['Population1000']
+dfinal['Population100'] = dfinal['Population']/100
+dfinal['DVASA'] = dfinal['DVASA']/dfinal['Population100']
 
 #Changing Name of Columns (Old_Men)
 Old_Men.rename(columns={"Value": "Old_Men"}, inplace=True)
