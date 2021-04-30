@@ -23,6 +23,7 @@ Middle_Women = pd.read_csv(r'Data\middle_aged_women_final.csv')
 Unemployment_Women = pd.read_csv(r'Data\unemployment_female_final.csv')
 Unemployment_Men = pd.read_csv(r'Data\unemployment_male_final.csv')
 Unemployment = pd.read_csv(r'Data\unemployment_total_final.csv')
+Marriages = pd.read_csv(r'Data\marriages_final.csv')
 
 #Importing Helper Variables
 Population = pd.read_csv(r'Data\resident_population_final.csv')
@@ -127,3 +128,13 @@ del Unemployment_Women
 dfinal['Unemployment_Total'] = dfinal['Unemployment_Total']/dfinal['Population100']
 dfinal['Unemployment_Male'] = dfinal['Unemployment_Male']/dfinal['Population100']
 dfinal['Unemployment_Female'] = dfinal['Unemployment_Female']/dfinal['Population100']
+
+#Changing Name of Columns (Marriages)
+Marriages.rename(columns={"Value": "Marriages"}, inplace=True)
+
+#Merging dfinal and Marriages
+dfinal = dfinal.merge(Marriages, on=["Municipality", "Year"], how = 'inner')
+del Marriages
+
+#Standardizing Marriages
+dfinal['Marriages'] = dfinal['Marriages'] / dfinal['Population100']
