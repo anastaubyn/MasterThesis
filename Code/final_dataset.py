@@ -24,6 +24,8 @@ Unemployment_Women = pd.read_csv(r'Data\unemployment_female_final.csv')
 Unemployment_Men = pd.read_csv(r'Data\unemployment_male_final.csv')
 Unemployment = pd.read_csv(r'Data\unemployment_total_final.csv')
 Marriages = pd.read_csv(r'Data\marriages_final.csv')
+Elderly_Dependency = pd.read_csv(r'Data\elderly_dependency_final.csv')
+Youth_Dependency = pd.read_csv(r'Data\youth_dependency_final.csv')
 
 #Importing Helper Variables
 Population = pd.read_csv(r'Data\resident_population_final.csv')
@@ -138,3 +140,17 @@ del Marriages
 
 #Standardizing Marriages
 dfinal['Marriages'] = dfinal['Marriages'] / dfinal['Population100']
+
+#Changing Name of Columns (Elderly_Dependency)
+Elderly_Dependency.rename(columns={"Value": "Elderly_Dependency"}, inplace=True)
+
+#Merging dfinal and Elderly_Dependency
+dfinal = dfinal.merge(Elderly_Dependency, on=["Municipality", "Year"], how = 'inner')
+del Elderly_Dependency
+
+#Changing Name of Columns (Youth_Dependency)
+Youth_Dependency.rename(columns={"Value": "Youth_Dependency"}, inplace=True)
+
+#Merging dfinal and Elderly_Dependency
+dfinal = dfinal.merge(Youth_Dependency, on=["Municipality", "Year"], how = 'inner')
+del Youth_Dependency
