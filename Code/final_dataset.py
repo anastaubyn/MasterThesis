@@ -26,6 +26,7 @@ Unemployment = pd.read_csv(r'Data\unemployment_total_final.csv')
 Marriages = pd.read_csv(r'Data\marriages_final.csv')
 Elderly_Dependency = pd.read_csv(r'Data\elderly_dependency_final.csv')
 Youth_Dependency = pd.read_csv(r'Data\youth_dependency_final.csv')
+Divorces = pd.read_csv(r'Data\divorces_final.csv')
 
 #Importing Helper Variables
 Population = pd.read_csv(r'Data\resident_population_final.csv')
@@ -113,10 +114,13 @@ del Middle_Women
 #Standardizing Middle_Aged_Women
 dfinal['Middle_Aged_Women'] = (dfinal['Middle_Aged_Women']*100)/dfinal['Population']
 
-#Changing Name of Columns (Unemployment)
+#Changing Name of Columns (Unemployment) and Removing Duplicates
 Unemployment.rename(columns={"Value": "Unemployment_Total"}, inplace=True)
 Unemployment_Men.rename(columns={"Value": "Unemployment_Male"}, inplace=True)
 Unemployment_Women.rename(columns={"Value": "Unemployment_Female"}, inplace=True)
+Unemployment = Unemployment.drop_duplicates()
+Unemployment_Men = Unemployment_Men.drop_duplicates()
+Unemployment_Women = Unemployment_Women.drop_duplicates()
 
 #Merging dfinal and Unemployment
 dfinal = dfinal.merge(Unemployment, on=["Municipality", "Year"], how = 'inner')
@@ -131,8 +135,9 @@ dfinal['Unemployment_Total'] = dfinal['Unemployment_Total']/dfinal['Population10
 dfinal['Unemployment_Male'] = dfinal['Unemployment_Male']/dfinal['Population100']
 dfinal['Unemployment_Female'] = dfinal['Unemployment_Female']/dfinal['Population100']
 
-#Changing Name of Columns (Marriages)
+#Changing Name of Columns (Marriages) and Removing Duplicates
 Marriages.rename(columns={"Value": "Marriages"}, inplace=True)
+Marriages = Marriages.drop_duplicates()
 
 #Merging dfinal and Marriages
 dfinal = dfinal.merge(Marriages, on=["Municipality", "Year"], how = 'inner')
@@ -154,3 +159,10 @@ Youth_Dependency.rename(columns={"Value": "Youth_Dependency"}, inplace=True)
 #Merging dfinal and Elderly_Dependency
 dfinal = dfinal.merge(Youth_Dependency, on=["Municipality", "Year"], how = 'inner')
 del Youth_Dependency
+
+#Changing Name of Columns (Divorces)
+Divorces.rename(columns={"Value": "Divorces"}, inplace=True)
+
+#Merging dfinal and Elderly_Dependency
+dfinal = dfinal.merge(Divorces, on=["Municipality", "Year"], how = 'inner')
+del Divorces
