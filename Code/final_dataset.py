@@ -27,6 +27,7 @@ Marriages = pd.read_csv(r'Data\marriages_final.csv')
 Elderly_Dependency = pd.read_csv(r'Data\elderly_dependency_final.csv')
 Youth_Dependency = pd.read_csv(r'Data\youth_dependency_final.csv')
 Divorces = pd.read_csv(r'Data\divorces_final.csv')
+Female_Doctors = pd.read_csv(r'Data\female_doctors_final.csv')
 
 #Importing Helper Variables
 Population = pd.read_csv(r'Data\resident_population_final.csv')
@@ -163,6 +164,16 @@ del Youth_Dependency
 #Changing Name of Columns (Divorces)
 Divorces.rename(columns={"Value": "Divorces"}, inplace=True)
 
-#Merging dfinal and Elderly_Dependency
+#Merging dfinal and Divorces
 dfinal = dfinal.merge(Divorces, on=["Municipality", "Year"], how = 'inner')
 del Divorces
+
+#Removing 2008
+dfinal = dfinal[dfinal.Year != 2008]
+
+#Changing Name of Columns (Female_Doctors)
+Female_Doctors.rename(columns={"Value": "Female_Doctors"}, inplace=True)
+
+#Merging dfinal and Female_Doctors
+dfinal = dfinal.merge(Female_Doctors, on=["Municipality", "Year"], how = 'inner')
+del Female_Doctors
