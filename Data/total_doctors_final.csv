@@ -1,0 +1,3389 @@
+Municipality,Year,Value
+Arcos de Valdevez,2009,32
+Caminha,2009,58
+Melgaço,2009,16
+Monção,2009,48
+Paredes de Coura,2009,10
+Ponte da Barca,2009,24
+Ponte de Lima,2009,72
+Valença,2009,30
+Viana do Castelo,2009,342
+Vila Nova de Cerveira,2009,29
+Amares,2009,21
+Barcelos,2009,154
+Braga,2009,876
+Esposende,2009,68
+Terras de Bouro,2009,2
+Vila Verde,2009,35
+Cabeceiras de Basto,2009,18
+Fafe,2009,68
+Guimarães,2009,354
+Mondim de Basto,2009,7
+Póvoa de Lanhoso,2009,22
+Vieira do Minho,2009,12
+Vila Nova de Famalicão,2009,224
+Vizela,2009,32
+Arouca,2009,20
+Espinho,2009,151
+Gondomar,2009,454
+Maia,2009,693
+Matosinhos,2009,1220
+Oliveira de Azeméis,2009,98
+Paredes,2009,81
+Porto,2009,4146
+Póvoa de Varzim,2009,251
+Santa Maria da Feira,2009,245
+Santo Tirso,2009,144
+São João da Madeira,2009,54
+Trofa,2009,59
+Vale de Cambra,2009,30
+Valongo,2009,211
+Vila do Conde,2009,229
+Vila Nova de Gaia,2009,1235
+Boticas,2009,6
+Chaves,2009,138
+Montalegre,2009,8
+Ribeira de Pena,2009,11
+Valpaços,2009,65
+Vila Pouca de Aguiar,2009,17
+Amarante,2009,73
+Baião,2009,16
+Castelo de Paiva,2009,11
+Celorico de Basto,2009,12
+Cinfães,2009,16
+Felgueiras,2009,41
+Lousada,2009,30
+Marco de Canaveses,2009,30
+Paços de Ferreira,2009,48
+Penafiel,2009,82
+Resende,2009,9
+Alijó,2009,7
+Armamar,2009,3
+Carrazeda de Ansiães,2009,6
+Freixo de Espada à Cinta,2009,5
+Lamego,2009,50
+Mesão Frio,2009,9
+Moimenta da Beira,2009,10
+Murça,2009,1
+Penedono,2009,2
+Peso da Régua,2009,34
+Sabrosa,2009,5
+Santa Marta de Penaguião,2009,2
+São João da Pesqueira,2009,7
+Sernancelhe,2009,5
+Tabuaço,2009,3
+Tarouca,2009,7
+Torre de Moncorvo,2009,7
+Vila Nova de Foz Côa,2009,8
+Vila Real,2009,231
+Alfândega da Fé,2009,8
+Bragança,2009,119
+Macedo de Cavaleiros,2009,31
+Miranda do Douro,2009,10
+Mirandela,2009,69
+Mogadouro,2009,13
+Vila Flor,2009,4
+Vimioso,2009,3
+Vinhais,2009,6
+Alcobaça,2009,52
+Alenquer,2009,38
+Arruda dos Vinhos,2009,17
+Bombarral,2009,16
+Cadaval,2009,5
+Caldas da Rainha,2009,149
+Lourinhã,2009,24
+Nazaré,2009,17
+Óbidos,2009,11
+Peniche,2009,33
+Sobral de Monte Agraço,2009,12
+Torres Vedras,2009,132
+Águeda,2009,87
+Albergaria-a-Velha,2009,38
+Anadia,2009,56
+Aveiro,2009,349
+Estarreja,2009,43
+Ílhavo,2009,78
+Murtosa,2009,14
+Oliveira do Bairro,2009,40
+Ovar,2009,119
+Sever do Vouga,2009,14
+Vagos,2009,30
+Arganil,2009,10
+Cantanhede,2009,70
+Coimbra,2009,3456
+Condeixa-a-Nova,2009,71
+Figueira da Foz,2009,236
+Góis,2009,1
+Lousã,2009,14
+Mealhada,2009,47
+Mira,2009,19
+Miranda do Corvo,2009,19
+Montemor-o-Velho,2009,40
+Mortágua,2009,16
+Oliveira do Hospital,2009,22
+Pampilhosa da Serra,2009,0
+Penacova,2009,14
+Penela,2009,8
+Soure,2009,12
+Tábua,2009,11
+Vila Nova de Poiares,2009,6
+Alvaiázere,2009,7
+Ansião,2009,10
+Batalha,2009,9
+Castanheira de Pêra,2009,2
+Figueiró dos Vinhos,2009,6
+Leiria,2009,355
+Marinha Grande,2009,33
+Pedrógão Grande,2009,1
+Pombal,2009,69
+Porto de Mós,2009,19
+Aguiar da Beira,2009,4
+Carregal do Sal,2009,10
+Castro Daire,2009,10
+Mangualde,2009,26
+Nelas,2009,22
+Oliveira de Frades,2009,10
+Penalva do Castelo,2009,5
+Santa Comba Dão,2009,20
+São Pedro do Sul,2009,26
+Sátão,2009,13
+Tondela,2009,43
+Vila Nova de Paiva,2009,6
+Viseu,2009,477
+Vouzela,2009,7
+Castelo Branco,2009,194
+Idanha-a-Nova,2009,5
+Oleiros,2009,0
+Penamacor,2009,6
+Proença-a-Nova,2009,9
+Vila Velha de Ródão,2009,2
+Abrantes,2009,81
+Alcanena,2009,15
+Constância,2009,3
+Entroncamento,2009,44
+Ferreira do Zêzere,2009,2
+Mação,2009,3
+Ourém,2009,34
+Sardoal,2009,4
+Sertã,2009,12
+Tomar,2009,85
+Torres Novas,2009,83
+Vila de Rei,2009,3
+Vila Nova da Barquinha,2009,6
+Almeida,2009,9
+Belmonte,2009,7
+Celorico da Beira,2009,3
+Covilhã,2009,157
+Figueira de Castelo Rodrigo,2009,10
+Fornos de Algodres,2009,8
+Fundão,2009,45
+Gouveia,2009,28
+Guarda,2009,177
+Manteigas,2009,5
+Mêda,2009,4
+Pinhel,2009,11
+Sabugal,2009,11
+Seia,2009,45
+Trancoso,2009,11
+Alcochete,2009,34
+Almada,2009,618
+Amadora,2009,504
+Barreiro,2009,201
+Cascais,2009,1285
+Lisboa,2009,7840
+Loures,2009,702
+Mafra,2009,117
+Moita,2009,67
+Montijo,2009,91
+Odivelas,2009,373
+Oeiras,2009,1483
+Palmela,2009,132
+Seixal,2009,250
+Sesimbra,2009,64
+Setúbal,2009,448
+Sintra,2009,773
+Vila Franca de Xira,2009,189
+Alcácer do Sal,2009,8
+Grândola,2009,12
+Odemira,2009,14
+Santiago do Cacém,2009,57
+Sines,2009,25
+Aljustrel,2009,8
+Almodôvar,2009,3
+Alvito,2009,2
+Barrancos,2009,2
+Beja,2009,162
+Castro Verde,2009,4
+Cuba,2009,5
+Ferreira do Alentejo,2009,9
+Mértola,2009,3
+Moura,2009,16
+Ourique,2009,6
+Serpa,2009,14
+Vidigueira,2009,7
+Almeirim,2009,34
+Alpiarça,2009,9
+Azambuja,2009,19
+Benavente,2009,28
+Cartaxo,2009,42
+Chamusca,2009,6
+Coruche,2009,18
+Golegã,2009,8
+Rio Maior,2009,20
+Salvaterra de Magos,2009,15
+Santarém,2009,236
+Alter do Chão,2009,3
+Arronches,2009,6
+Avis,2009,5
+Campo Maior,2009,55
+Castelo de Vide,2009,7
+Crato,2009,2
+Elvas,2009,105
+Fronteira,2009,4
+Gavião,2009,2
+Marvão,2009,6
+Monforte,2009,5
+Nisa,2009,10
+Ponte de Sor,2009,25
+Portalegre,2009,105
+Sousel,2009,4
+Alandroal,2009,5
+Arraiolos,2009,4
+Borba,2009,9
+Estremoz,2009,18
+Évora,2009,279
+Montemor-o-Novo,2009,15
+Mora,2009,5
+Mourão,2009,2
+Portel,2009,2
+Redondo,2009,5
+Reguengos de Monsaraz,2009,12
+Vendas Novas,2009,14
+Viana do Alentejo,2009,5
+Vila Viçosa,2009,11
+Albufeira,2009,63
+Alcoutim,2009,6
+Aljezur,2009,5
+Castro Marim,2009,9
+Faro,2009,507
+Lagoa,2009,60
+Lagos,2009,68
+Loulé,2009,121
+Monchique,2009,4
+Olhão,2009,74
+Portimão,2009,263
+São Brás de Alportel,2009,26
+Silves,2009,29
+Tavira,2009,52
+Vila do Bispo,2009,4
+Vila Real de Santo António,2009,30
+Vila do Porto,2009,8
+Lagoa [R.A.A.],2009,22
+Nordeste,2009,5
+Ponta Delgada,2009,251
+Povoação,2009,5
+Ribeira Grande,2009,25
+Vila Franca do Campo,2009,5
+Angra do Heroísmo,2009,97
+Vila da Praia da Vitória,2009,28
+Santa Cruz da Graciosa,2009,3
+Calheta [R.A.A.],2009,2
+Velas,2009,8
+Lajes do Pico,2009,5
+Madalena,2009,4
+São Roque do Pico,2009,5
+Horta,2009,38
+Lajes das Flores,2009,0
+Santa Cruz das Flores,2009,1
+Corvo,2009,1
+Calheta [R.A.M.],2009,6
+Câmara de Lobos,2009,17
+Funchal,2009,514
+Machico,2009,22
+Ponta do Sol,2009,3
+Porto Moniz,2009,1
+Ribeira Brava,2009,5
+Santa Cruz,2009,78
+Santana,2009,5
+São Vicente,2009,4
+Porto Santo,2009,2
+Arcos de Valdevez,2010,34
+Caminha,2010,58
+Melgaço,2010,18
+Monção,2010,52
+Paredes de Coura,2010,10
+Ponte da Barca,2010,23
+Ponte de Lima,2010,69
+Valença,2010,32
+Viana do Castelo,2010,363
+Vila Nova de Cerveira,2010,28
+Amares,2010,21
+Barcelos,2010,164
+Braga,2010,947
+Esposende,2010,76
+Terras de Bouro,2010,3
+Vila Verde,2010,39
+Cabeceiras de Basto,2010,21
+Fafe,2010,70
+Guimarães,2010,374
+Mondim de Basto,2010,7
+Póvoa de Lanhoso,2010,24
+Vieira do Minho,2010,12
+Vila Nova de Famalicão,2010,235
+Vizela,2010,37
+Arouca,2010,21
+Espinho,2010,154
+Gondomar,2010,475
+Maia,2010,724
+Matosinhos,2010,1262
+Oliveira de Azeméis,2010,106
+Paredes,2010,89
+Porto,2010,4226
+Póvoa de Varzim,2010,255
+Santa Maria da Feira,2010,259
+Santo Tirso,2010,154
+São João da Madeira,2010,62
+Trofa,2010,65
+Vale de Cambra,2010,36
+Valongo,2010,221
+Vila do Conde,2010,231
+Vila Nova de Gaia,2010,1306
+Boticas,2010,6
+Chaves,2010,146
+Montalegre,2010,8
+Ribeira de Pena,2010,13
+Valpaços,2010,65
+Vila Pouca de Aguiar,2010,20
+Amarante,2010,74
+Baião,2010,18
+Castelo de Paiva,2010,11
+Celorico de Basto,2010,13
+Cinfães,2010,15
+Felgueiras,2010,45
+Lousada,2010,30
+Marco de Canaveses,2010,35
+Paços de Ferreira,2010,53
+Penafiel,2010,94
+Resende,2010,10
+Alijó,2010,7
+Armamar,2010,3
+Carrazeda de Ansiães,2010,6
+Freixo de Espada à Cinta,2010,5
+Lamego,2010,54
+Mesão Frio,2010,8
+Moimenta da Beira,2010,10
+Murça,2010,1
+Penedono,2010,2
+Peso da Régua,2010,36
+Sabrosa,2010,5
+Santa Marta de Penaguião,2010,2
+São João da Pesqueira,2010,7
+Sernancelhe,2010,5
+Tabuaço,2010,3
+Tarouca,2010,7
+Torre de Moncorvo,2010,7
+Vila Nova de Foz Côa,2010,8
+Vila Real,2010,232
+Alfândega da Fé,2010,10
+Bragança,2010,123
+Macedo de Cavaleiros,2010,32
+Miranda do Douro,2010,10
+Mirandela,2010,69
+Mogadouro,2010,14
+Vila Flor,2010,4
+Vimioso,2010,3
+Vinhais,2010,5
+Alcobaça,2010,56
+Alenquer,2010,43
+Arruda dos Vinhos,2010,18
+Bombarral,2010,17
+Cadaval,2010,5
+Caldas da Rainha,2010,149
+Lourinhã,2010,27
+Nazaré,2010,17
+Óbidos,2010,11
+Peniche,2010,34
+Sobral de Monte Agraço,2010,13
+Torres Vedras,2010,137
+Águeda,2010,88
+Albergaria-a-Velha,2010,42
+Anadia,2010,58
+Aveiro,2010,358
+Estarreja,2010,46
+Ílhavo,2010,79
+Murtosa,2010,13
+Oliveira do Bairro,2010,43
+Ovar,2010,125
+Sever do Vouga,2010,15
+Vagos,2010,33
+Arganil,2010,10
+Cantanhede,2010,73
+Coimbra,2010,3601
+Condeixa-a-Nova,2010,75
+Figueira da Foz,2010,247
+Góis,2010,1
+Lousã,2010,15
+Mealhada,2010,51
+Mira,2010,21
+Miranda do Corvo,2010,18
+Montemor-o-Velho,2010,39
+Mortágua,2010,17
+Oliveira do Hospital,2010,24
+Pampilhosa da Serra,2010,0
+Penacova,2010,14
+Penela,2010,8
+Soure,2010,17
+Tábua,2010,12
+Vila Nova de Poiares,2010,6
+Alvaiázere,2010,7
+Ansião,2010,11
+Batalha,2010,10
+Castanheira de Pêra,2010,2
+Figueiró dos Vinhos,2010,6
+Leiria,2010,371
+Marinha Grande,2010,33
+Pedrógão Grande,2010,1
+Pombal,2010,73
+Porto de Mós,2010,19
+Aguiar da Beira,2010,4
+Carregal do Sal,2010,11
+Castro Daire,2010,10
+Mangualde,2010,26
+Nelas,2010,25
+Oliveira de Frades,2010,10
+Penalva do Castelo,2010,4
+Santa Comba Dão,2010,20
+São Pedro do Sul,2010,28
+Sátão,2010,14
+Tondela,2010,45
+Vila Nova de Paiva,2010,6
+Viseu,2010,504
+Vouzela,2010,8
+Castelo Branco,2010,195
+Idanha-a-Nova,2010,6
+Oleiros,2010,0
+Penamacor,2010,7
+Proença-a-Nova,2010,10
+Vila Velha de Ródão,2010,2
+Abrantes,2010,80
+Alcanena,2010,14
+Constância,2010,3
+Entroncamento,2010,46
+Ferreira do Zêzere,2010,2
+Mação,2010,3
+Ourém,2010,39
+Sardoal,2010,4
+Sertã,2010,14
+Tomar,2010,84
+Torres Novas,2010,89
+Vila de Rei,2010,3
+Vila Nova da Barquinha,2010,6
+Almeida,2010,9
+Belmonte,2010,7
+Celorico da Beira,2010,3
+Covilhã,2010,160
+Figueira de Castelo Rodrigo,2010,11
+Fornos de Algodres,2010,9
+Fundão,2010,47
+Gouveia,2010,30
+Guarda,2010,181
+Manteigas,2010,6
+Mêda,2010,4
+Pinhel,2010,13
+Sabugal,2010,11
+Seia,2010,45
+Trancoso,2010,13
+Alcochete,2010,37
+Almada,2010,630
+Amadora,2010,502
+Barreiro,2010,204
+Cascais,2010,1328
+Lisboa,2010,7987
+Loures,2010,722
+Mafra,2010,128
+Moita,2010,72
+Montijo,2010,98
+Odivelas,2010,392
+Oeiras,2010,1485
+Palmela,2010,134
+Seixal,2010,250
+Sesimbra,2010,68
+Setúbal,2010,457
+Sintra,2010,779
+Vila Franca de Xira,2010,193
+Alcácer do Sal,2010,8
+Grândola,2010,11
+Odemira,2010,14
+Santiago do Cacém,2010,64
+Sines,2010,28
+Aljustrel,2010,11
+Almodôvar,2010,3
+Alvito,2010,4
+Barrancos,2010,1
+Beja,2010,163
+Castro Verde,2010,4
+Cuba,2010,6
+Ferreira do Alentejo,2010,8
+Mértola,2010,2
+Moura,2010,17
+Ourique,2010,6
+Serpa,2010,15
+Vidigueira,2010,6
+Almeirim,2010,35
+Alpiarça,2010,10
+Azambuja,2010,18
+Benavente,2010,29
+Cartaxo,2010,43
+Chamusca,2010,6
+Coruche,2010,18
+Golegã,2010,7
+Rio Maior,2010,21
+Salvaterra de Magos,2010,14
+Santarém,2010,242
+Alter do Chão,2010,4
+Arronches,2010,6
+Avis,2010,4
+Campo Maior,2010,56
+Castelo de Vide,2010,8
+Crato,2010,2
+Elvas,2010,109
+Fronteira,2010,4
+Gavião,2010,2
+Marvão,2010,6
+Monforte,2010,5
+Nisa,2010,10
+Ponte de Sor,2010,29
+Portalegre,2010,110
+Sousel,2010,4
+Alandroal,2010,5
+Arraiolos,2010,5
+Borba,2010,9
+Estremoz,2010,20
+Évora,2010,298
+Montemor-o-Novo,2010,18
+Mora,2010,5
+Mourão,2010,2
+Portel,2010,2
+Redondo,2010,6
+Reguengos de Monsaraz,2010,11
+Vendas Novas,2010,15
+Viana do Alentejo,2010,5
+Vila Viçosa,2010,13
+Albufeira,2010,68
+Alcoutim,2010,6
+Aljezur,2010,6
+Castro Marim,2010,10
+Faro,2010,524
+Lagoa,2010,62
+Lagos,2010,71
+Loulé,2010,124
+Monchique,2010,3
+Olhão,2010,79
+Portimão,2010,275
+São Brás de Alportel,2010,28
+Silves,2010,35
+Tavira,2010,52
+Vila do Bispo,2010,3
+Vila Real de Santo António,2010,33
+Vila do Porto,2010,9
+Lagoa [R.A.A.],2010,25
+Nordeste,2010,5
+Ponta Delgada,2010,262
+Povoação,2010,5
+Ribeira Grande,2010,25
+Vila Franca do Campo,2010,6
+Angra do Heroísmo,2010,97
+Vila da Praia da Vitória,2010,31
+Santa Cruz da Graciosa,2010,4
+Calheta [R.A.A.],2010,3
+Velas,2010,9
+Lajes do Pico,2010,5
+Madalena,2010,5
+São Roque do Pico,2010,6
+Horta,2010,40
+Lajes das Flores,2010,0
+Santa Cruz das Flores,2010,1
+Corvo,2010,1
+Calheta [R.A.M.],2010,6
+Câmara de Lobos,2010,20
+Funchal,2010,532
+Machico,2010,25
+Ponta do Sol,2010,1
+Porto Moniz,2010,1
+Ribeira Brava,2010,6
+Santa Cruz,2010,84
+Santana,2010,2
+São Vicente,2010,5
+Porto Santo,2010,1
+Arcos de Valdevez,2011,36
+Caminha,2011,60
+Melgaço,2011,22
+Monção,2011,54
+Paredes de Coura,2011,7
+Ponte da Barca,2011,23
+Ponte de Lima,2011,71
+Valença,2011,34
+Viana do Castelo,2011,380
+Vila Nova de Cerveira,2011,28
+Amares,2011,25
+Barcelos,2011,178
+Braga,2011,985
+Esposende,2011,80
+Terras de Bouro,2011,3
+Vila Verde,2011,48
+Cabeceiras de Basto,2011,23
+Fafe,2011,75
+Guimarães,2011,391
+Mondim de Basto,2011,7
+Póvoa de Lanhoso,2011,26
+Vieira do Minho,2011,12
+Vila Nova de Famalicão,2011,255
+Vizela,2011,39
+Arouca,2011,22
+Espinho,2011,159
+Gondomar,2011,490
+Maia,2011,741
+Matosinhos,2011,1315
+Oliveira de Azeméis,2011,107
+Paredes,2011,92
+Porto,2011,4303
+Póvoa de Varzim,2011,268
+Santa Maria da Feira,2011,272
+Santo Tirso,2011,173
+São João da Madeira,2011,67
+Trofa,2011,82
+Vale de Cambra,2011,42
+Valongo,2011,235
+Vila do Conde,2011,242
+Vila Nova de Gaia,2011,1335
+Boticas,2011,6
+Chaves,2011,149
+Montalegre,2011,8
+Ribeira de Pena,2011,13
+Valpaços,2011,61
+Vila Pouca de Aguiar,2011,20
+Amarante,2011,78
+Baião,2011,19
+Castelo de Paiva,2011,12
+Celorico de Basto,2011,13
+Cinfães,2011,16
+Felgueiras,2011,50
+Lousada,2011,30
+Marco de Canaveses,2011,41
+Paços de Ferreira,2011,61
+Penafiel,2011,103
+Resende,2011,8
+Alijó,2011,7
+Armamar,2011,3
+Carrazeda de Ansiães,2011,6
+Freixo de Espada à Cinta,2011,5
+Lamego,2011,56
+Mesão Frio,2011,8
+Moimenta da Beira,2011,10
+Murça,2011,1
+Penedono,2011,2
+Peso da Régua,2011,33
+Sabrosa,2011,6
+Santa Marta de Penaguião,2011,2
+São João da Pesqueira,2011,8
+Sernancelhe,2011,6
+Tabuaço,2011,3
+Tarouca,2011,8
+Torre de Moncorvo,2011,7
+Vila Nova de Foz Côa,2011,8
+Vila Real,2011,241
+Alfândega da Fé,2011,10
+Bragança,2011,126
+Macedo de Cavaleiros,2011,33
+Miranda do Douro,2011,10
+Mirandela,2011,71
+Mogadouro,2011,13
+Vila Flor,2011,7
+Vimioso,2011,3
+Vinhais,2011,5
+Alcobaça,2011,58
+Alenquer,2011,46
+Arruda dos Vinhos,2011,21
+Bombarral,2011,17
+Cadaval,2011,4
+Caldas da Rainha,2011,157
+Lourinhã,2011,29
+Nazaré,2011,18
+Óbidos,2011,10
+Peniche,2011,36
+Sobral de Monte Agraço,2011,13
+Torres Vedras,2011,147
+Águeda,2011,87
+Albergaria-a-Velha,2011,46
+Anadia,2011,62
+Aveiro,2011,371
+Estarreja,2011,48
+Ílhavo,2011,83
+Murtosa,2011,14
+Oliveira do Bairro,2011,45
+Ovar,2011,134
+Sever do Vouga,2011,15
+Vagos,2011,38
+Arganil,2011,10
+Cantanhede,2011,75
+Coimbra,2011,3710
+Condeixa-a-Nova,2011,73
+Figueira da Foz,2011,260
+Góis,2011,1
+Lousã,2011,17
+Mealhada,2011,53
+Mira,2011,23
+Miranda do Corvo,2011,18
+Montemor-o-Velho,2011,43
+Mortágua,2011,17
+Oliveira do Hospital,2011,27
+Pampilhosa da Serra,2011,0
+Penacova,2011,17
+Penela,2011,7
+Soure,2011,18
+Tábua,2011,13
+Vila Nova de Poiares,2011,6
+Alvaiázere,2011,6
+Ansião,2011,10
+Batalha,2011,9
+Castanheira de Pêra,2011,4
+Figueiró dos Vinhos,2011,7
+Leiria,2011,377
+Marinha Grande,2011,35
+Pedrógão Grande,2011,1
+Pombal,2011,78
+Porto de Mós,2011,19
+Aguiar da Beira,2011,6
+Carregal do Sal,2011,10
+Castro Daire,2011,10
+Mangualde,2011,27
+Nelas,2011,26
+Oliveira de Frades,2011,10
+Penalva do Castelo,2011,4
+Santa Comba Dão,2011,20
+São Pedro do Sul,2011,31
+Sátão,2011,14
+Tondela,2011,47
+Vila Nova de Paiva,2011,7
+Viseu,2011,527
+Vouzela,2011,8
+Castelo Branco,2011,194
+Idanha-a-Nova,2011,6
+Oleiros,2011,0
+Penamacor,2011,7
+Proença-a-Nova,2011,10
+Vila Velha de Ródão,2011,3
+Abrantes,2011,88
+Alcanena,2011,15
+Constância,2011,2
+Entroncamento,2011,51
+Ferreira do Zêzere,2011,1
+Mação,2011,5
+Ourém,2011,43
+Sardoal,2011,5
+Sertã,2011,13
+Tomar,2011,91
+Torres Novas,2011,92
+Vila de Rei,2011,3
+Vila Nova da Barquinha,2011,6
+Almeida,2011,12
+Belmonte,2011,10
+Celorico da Beira,2011,3
+Covilhã,2011,167
+Figueira de Castelo Rodrigo,2011,12
+Fornos de Algodres,2011,9
+Fundão,2011,50
+Gouveia,2011,27
+Guarda,2011,184
+Manteigas,2011,6
+Mêda,2011,5
+Pinhel,2011,12
+Sabugal,2011,12
+Seia,2011,44
+Trancoso,2011,14
+Alcochete,2011,41
+Almada,2011,653
+Amadora,2011,507
+Barreiro,2011,204
+Cascais,2011,1357
+Lisboa,2011,8205
+Loures,2011,729
+Mafra,2011,144
+Moita,2011,68
+Montijo,2011,105
+Odivelas,2011,403
+Oeiras,2011,1508
+Palmela,2011,133
+Seixal,2011,259
+Sesimbra,2011,75
+Setúbal,2011,476
+Sintra,2011,792
+Vila Franca de Xira,2011,197
+Alcácer do Sal,2011,9
+Grândola,2011,10
+Odemira,2011,14
+Santiago do Cacém,2011,67
+Sines,2011,30
+Aljustrel,2011,11
+Almodôvar,2011,2
+Alvito,2011,3
+Barrancos,2011,2
+Beja,2011,161
+Castro Verde,2011,4
+Cuba,2011,6
+Ferreira do Alentejo,2011,9
+Mértola,2011,2
+Moura,2011,18
+Ourique,2011,6
+Serpa,2011,16
+Vidigueira,2011,6
+Almeirim,2011,37
+Alpiarça,2011,10
+Azambuja,2011,22
+Benavente,2011,30
+Cartaxo,2011,46
+Chamusca,2011,7
+Coruche,2011,21
+Golegã,2011,8
+Rio Maior,2011,23
+Salvaterra de Magos,2011,16
+Santarém,2011,246
+Alter do Chão,2011,5
+Arronches,2011,7
+Avis,2011,4
+Campo Maior,2011,54
+Castelo de Vide,2011,8
+Crato,2011,2
+Elvas,2011,111
+Fronteira,2011,4
+Gavião,2011,2
+Marvão,2011,7
+Monforte,2011,5
+Nisa,2011,10
+Ponte de Sor,2011,28
+Portalegre,2011,111
+Sousel,2011,6
+Alandroal,2011,4
+Arraiolos,2011,4
+Borba,2011,9
+Estremoz,2011,19
+Évora,2011,320
+Montemor-o-Novo,2011,19
+Mora,2011,5
+Mourão,2011,2
+Portel,2011,3
+Redondo,2011,6
+Reguengos de Monsaraz,2011,11
+Vendas Novas,2011,15
+Viana do Alentejo,2011,5
+Vila Viçosa,2011,13
+Albufeira,2011,79
+Alcoutim,2011,6
+Aljezur,2011,6
+Castro Marim,2011,10
+Faro,2011,531
+Lagoa,2011,68
+Lagos,2011,80
+Loulé,2011,137
+Monchique,2011,3
+Olhão,2011,81
+Portimão,2011,280
+São Brás de Alportel,2011,31
+Silves,2011,38
+Tavira,2011,54
+Vila do Bispo,2011,5
+Vila Real de Santo António,2011,33
+Vila do Porto,2011,9
+Lagoa [R.A.A.],2011,25
+Nordeste,2011,4
+Ponta Delgada,2011,288
+Povoação,2011,5
+Ribeira Grande,2011,29
+Vila Franca do Campo,2011,6
+Angra do Heroísmo,2011,103
+Vila da Praia da Vitória,2011,33
+Santa Cruz da Graciosa,2011,3
+Calheta [R.A.A.],2011,3
+Velas,2011,9
+Lajes do Pico,2011,6
+Madalena,2011,4
+São Roque do Pico,2011,6
+Horta,2011,41
+Lajes das Flores,2011,0
+Santa Cruz das Flores,2011,1
+Corvo,2011,1
+Calheta [R.A.M.],2011,5
+Câmara de Lobos,2011,24
+Funchal,2011,542
+Machico,2011,26
+Ponta do Sol,2011,1
+Porto Moniz,2011,1
+Ribeira Brava,2011,7
+Santa Cruz,2011,90
+Santana,2011,3
+São Vicente,2011,5
+Porto Santo,2011,2
+Arcos de Valdevez,2012,37
+Caminha,2012,61
+Melgaço,2012,21
+Monção,2012,46
+Paredes de Coura,2012,8
+Ponte da Barca,2012,21
+Ponte de Lima,2012,72
+Valença,2012,22
+Viana do Castelo,2012,378
+Vila Nova de Cerveira,2012,27
+Amares,2012,29
+Barcelos,2012,188
+Braga,2012,1015
+Esposende,2012,88
+Terras de Bouro,2012,3
+Vila Verde,2012,47
+Cabeceiras de Basto,2012,25
+Fafe,2012,89
+Guimarães,2012,413
+Mondim de Basto,2012,7
+Póvoa de Lanhoso,2012,28
+Vieira do Minho,2012,12
+Vila Nova de Famalicão,2012,276
+Vizela,2012,38
+Arouca,2012,21
+Espinho,2012,163
+Gondomar,2012,511
+Maia,2012,762
+Matosinhos,2012,1357
+Oliveira de Azeméis,2012,115
+Paredes,2012,101
+Porto,2012,4256
+Póvoa de Varzim,2012,277
+Santa Maria da Feira,2012,275
+Santo Tirso,2012,177
+São João da Madeira,2012,68
+Trofa,2012,92
+Vale de Cambra,2012,47
+Valongo,2012,244
+Vila do Conde,2012,254
+Vila Nova de Gaia,2012,1363
+Boticas,2012,6
+Chaves,2012,149
+Montalegre,2012,9
+Ribeira de Pena,2012,10
+Valpaços,2012,38
+Vila Pouca de Aguiar,2012,20
+Amarante,2012,86
+Baião,2012,18
+Castelo de Paiva,2012,12
+Celorico de Basto,2012,15
+Cinfães,2012,18
+Felgueiras,2012,56
+Lousada,2012,31
+Marco de Canaveses,2012,42
+Paços de Ferreira,2012,68
+Penafiel,2012,102
+Resende,2012,10
+Alijó,2012,7
+Armamar,2012,3
+Carrazeda de Ansiães,2012,3
+Freixo de Espada à Cinta,2012,3
+Lamego,2012,57
+Mesão Frio,2012,8
+Moimenta da Beira,2012,9
+Murça,2012,2
+Penedono,2012,3
+Peso da Régua,2012,33
+Sabrosa,2012,6
+Santa Marta de Penaguião,2012,2
+São João da Pesqueira,2012,8
+Sernancelhe,2012,7
+Tabuaço,2012,3
+Tarouca,2012,9
+Torre de Moncorvo,2012,8
+Vila Nova de Foz Côa,2012,8
+Vila Real,2012,255
+Alfândega da Fé,2012,10
+Bragança,2012,132
+Macedo de Cavaleiros,2012,32
+Miranda do Douro,2012,10
+Mirandela,2012,66
+Mogadouro,2012,15
+Vila Flor,2012,7
+Vimioso,2012,4
+Vinhais,2012,5
+Alcobaça,2012,60
+Alenquer,2012,48
+Arruda dos Vinhos,2012,21
+Bombarral,2012,17
+Cadaval,2012,4
+Caldas da Rainha,2012,159
+Lourinhã,2012,30
+Nazaré,2012,20
+Óbidos,2012,13
+Peniche,2012,36
+Sobral de Monte Agraço,2012,13
+Torres Vedras,2012,157
+Águeda,2012,90
+Albergaria-a-Velha,2012,48
+Anadia,2012,67
+Aveiro,2012,379
+Estarreja,2012,50
+Ílhavo,2012,86
+Murtosa,2012,16
+Oliveira do Bairro,2012,48
+Ovar,2012,142
+Sever do Vouga,2012,15
+Vagos,2012,40
+Arganil,2012,9
+Cantanhede,2012,80
+Coimbra,2012,3830
+Condeixa-a-Nova,2012,78
+Figueira da Foz,2012,265
+Góis,2012,2
+Lousã,2012,19
+Mealhada,2012,53
+Mira,2012,24
+Miranda do Corvo,2012,19
+Montemor-o-Velho,2012,47
+Mortágua,2012,17
+Oliveira do Hospital,2012,30
+Pampilhosa da Serra,2012,0
+Penacova,2012,20
+Penela,2012,6
+Soure,2012,21
+Tábua,2012,13
+Vila Nova de Poiares,2012,5
+Alvaiázere,2012,7
+Ansião,2012,10
+Batalha,2012,10
+Castanheira de Pêra,2012,4
+Figueiró dos Vinhos,2012,7
+Leiria,2012,397
+Marinha Grande,2012,31
+Pedrógão Grande,2012,1
+Pombal,2012,88
+Porto de Mós,2012,20
+Aguiar da Beira,2012,6
+Carregal do Sal,2012,11
+Castro Daire,2012,11
+Mangualde,2012,26
+Nelas,2012,26
+Oliveira de Frades,2012,12
+Penalva do Castelo,2012,5
+Santa Comba Dão,2012,21
+São Pedro do Sul,2012,32
+Sátão,2012,16
+Tondela,2012,47
+Vila Nova de Paiva,2012,6
+Viseu,2012,544
+Vouzela,2012,11
+Castelo Branco,2012,204
+Idanha-a-Nova,2012,6
+Oleiros,2012,0
+Penamacor,2012,8
+Proença-a-Nova,2012,9
+Vila Velha de Ródão,2012,3
+Abrantes,2012,93
+Alcanena,2012,18
+Constância,2012,2
+Entroncamento,2012,54
+Ferreira do Zêzere,2012,2
+Mação,2012,5
+Ourém,2012,48
+Sardoal,2012,6
+Sertã,2012,13
+Tomar,2012,89
+Torres Novas,2012,96
+Vila de Rei,2012,3
+Vila Nova da Barquinha,2012,6
+Almeida,2012,14
+Belmonte,2012,9
+Celorico da Beira,2012,3
+Covilhã,2012,167
+Figueira de Castelo Rodrigo,2012,11
+Fornos de Algodres,2012,10
+Fundão,2012,49
+Gouveia,2012,25
+Guarda,2012,186
+Manteigas,2012,6
+Mêda,2012,6
+Pinhel,2012,12
+Sabugal,2012,13
+Seia,2012,45
+Trancoso,2012,13
+Alcochete,2012,40
+Almada,2012,651
+Amadora,2012,511
+Barreiro,2012,211
+Cascais,2012,1398
+Lisboa,2012,8344
+Loures,2012,747
+Mafra,2012,152
+Moita,2012,67
+Montijo,2012,113
+Odivelas,2012,417
+Oeiras,2012,1540
+Palmela,2012,136
+Seixal,2012,262
+Sesimbra,2012,79
+Setúbal,2012,487
+Sintra,2012,824
+Vila Franca de Xira,2012,202
+Alcácer do Sal,2012,11
+Grândola,2012,13
+Odemira,2012,20
+Santiago do Cacém,2012,70
+Sines,2012,33
+Aljustrel,2012,11
+Almodôvar,2012,5
+Alvito,2012,2
+Barrancos,2012,3
+Beja,2012,172
+Castro Verde,2012,4
+Cuba,2012,6
+Ferreira do Alentejo,2012,9
+Mértola,2012,4
+Moura,2012,19
+Ourique,2012,7
+Serpa,2012,17
+Vidigueira,2012,6
+Almeirim,2012,36
+Alpiarça,2012,10
+Azambuja,2012,21
+Benavente,2012,33
+Cartaxo,2012,46
+Chamusca,2012,9
+Coruche,2012,23
+Golegã,2012,8
+Rio Maior,2012,22
+Salvaterra de Magos,2012,19
+Santarém,2012,262
+Alter do Chão,2012,5
+Arronches,2012,8
+Avis,2012,4
+Campo Maior,2012,53
+Castelo de Vide,2012,8
+Crato,2012,2
+Elvas,2012,113
+Fronteira,2012,4
+Gavião,2012,2
+Marvão,2012,7
+Monforte,2012,5
+Nisa,2012,10
+Ponte de Sor,2012,27
+Portalegre,2012,116
+Sousel,2012,6
+Alandroal,2012,5
+Arraiolos,2012,5
+Borba,2012,10
+Estremoz,2012,22
+Évora,2012,341
+Montemor-o-Novo,2012,19
+Mora,2012,5
+Mourão,2012,1
+Portel,2012,6
+Redondo,2012,6
+Reguengos de Monsaraz,2012,10
+Vendas Novas,2012,16
+Viana do Alentejo,2012,4
+Vila Viçosa,2012,14
+Albufeira,2012,82
+Alcoutim,2012,6
+Aljezur,2012,9
+Castro Marim,2012,10
+Faro,2012,538
+Lagoa,2012,69
+Lagos,2012,82
+Loulé,2012,138
+Monchique,2012,4
+Olhão,2012,77
+Portimão,2012,283
+São Brás de Alportel,2012,34
+Silves,2012,41
+Tavira,2012,56
+Vila do Bispo,2012,3
+Vila Real de Santo António,2012,36
+Vila do Porto,2012,7
+Lagoa [R.A.A.],2012,25
+Nordeste,2012,4
+Ponta Delgada,2012,312
+Povoação,2012,6
+Ribeira Grande,2012,34
+Vila Franca do Campo,2012,7
+Angra do Heroísmo,2012,106
+Vila da Praia da Vitória,2012,38
+Santa Cruz da Graciosa,2012,1
+Calheta [R.A.A.],2012,3
+Velas,2012,11
+Lajes do Pico,2012,7
+Madalena,2012,4
+São Roque do Pico,2012,6
+Horta,2012,40
+Lajes das Flores,2012,0
+Santa Cruz das Flores,2012,1
+Corvo,2012,1
+Calheta [R.A.M.],2012,6
+Câmara de Lobos,2012,25
+Funchal,2012,577
+Machico,2012,27
+Ponta do Sol,2012,2
+Porto Moniz,2012,2
+Ribeira Brava,2012,8
+Santa Cruz,2012,90
+Santana,2012,3
+São Vicente,2012,5
+Porto Santo,2012,2
+Arcos de Valdevez,2013,38
+Caminha,2013,69
+Melgaço,2013,24
+Monção,2013,50
+Paredes de Coura,2013,9
+Ponte da Barca,2013,24
+Ponte de Lima,2013,73
+Valença,2013,21
+Viana do Castelo,2013,408
+Vila Nova de Cerveira,2013,24
+Amares,2013,32
+Barcelos,2013,204
+Braga,2013,1076
+Esposende,2013,97
+Terras de Bouro,2013,3
+Vila Verde,2013,52
+Cabeceiras de Basto,2013,28
+Fafe,2013,96
+Guimarães,2013,442
+Mondim de Basto,2013,8
+Póvoa de Lanhoso,2013,28
+Vieira do Minho,2013,13
+Vila Nova de Famalicão,2013,305
+Vizela,2013,47
+Arouca,2013,22
+Espinho,2013,166
+Gondomar,2013,538
+Maia,2013,791
+Matosinhos,2013,1381
+Oliveira de Azeméis,2013,122
+Paredes,2013,108
+Porto,2013,4369
+Póvoa de Varzim,2013,283
+Santa Maria da Feira,2013,288
+Santo Tirso,2013,183
+São João da Madeira,2013,76
+Trofa,2013,103
+Vale de Cambra,2013,51
+Valongo,2013,262
+Vila do Conde,2013,267
+Vila Nova de Gaia,2013,1445
+Boticas,2013,7
+Chaves,2013,156
+Montalegre,2013,11
+Ribeira de Pena,2013,10
+Valpaços,2013,36
+Vila Pouca de Aguiar,2013,21
+Amarante,2013,92
+Baião,2013,16
+Castelo de Paiva,2013,13
+Celorico de Basto,2013,18
+Cinfães,2013,17
+Felgueiras,2013,61
+Lousada,2013,34
+Marco de Canaveses,2013,49
+Paços de Ferreira,2013,77
+Penafiel,2013,110
+Resende,2013,11
+Alijó,2013,6
+Armamar,2013,3
+Carrazeda de Ansiães,2013,4
+Freixo de Espada à Cinta,2013,5
+Lamego,2013,63
+Mesão Frio,2013,9
+Moimenta da Beira,2013,8
+Murça,2013,3
+Penedono,2013,3
+Peso da Régua,2013,34
+Sabrosa,2013,6
+Santa Marta de Penaguião,2013,2
+São João da Pesqueira,2013,9
+Sernancelhe,2013,8
+Tabuaço,2013,3
+Tarouca,2013,9
+Torre de Moncorvo,2013,9
+Vila Nova de Foz Côa,2013,8
+Vila Real,2013,262
+Alfândega da Fé,2013,10
+Bragança,2013,142
+Macedo de Cavaleiros,2013,33
+Miranda do Douro,2013,10
+Mirandela,2013,72
+Mogadouro,2013,16
+Vila Flor,2013,8
+Vimioso,2013,4
+Vinhais,2013,5
+Alcobaça,2013,60
+Alenquer,2013,47
+Arruda dos Vinhos,2013,25
+Bombarral,2013,17
+Cadaval,2013,4
+Caldas da Rainha,2013,160
+Lourinhã,2013,30
+Nazaré,2013,19
+Óbidos,2013,13
+Peniche,2013,37
+Sobral de Monte Agraço,2013,15
+Torres Vedras,2013,157
+Águeda,2013,90
+Albergaria-a-Velha,2013,51
+Anadia,2013,70
+Aveiro,2013,401
+Estarreja,2013,50
+Ílhavo,2013,87
+Murtosa,2013,18
+Oliveira do Bairro,2013,48
+Ovar,2013,147
+Sever do Vouga,2013,16
+Vagos,2013,43
+Arganil,2013,9
+Cantanhede,2013,87
+Coimbra,2013,3933
+Condeixa-a-Nova,2013,82
+Figueira da Foz,2013,267
+Góis,2013,1
+Lousã,2013,19
+Mealhada,2013,53
+Mira,2013,28
+Miranda do Corvo,2013,20
+Montemor-o-Velho,2013,49
+Mortágua,2013,19
+Oliveira do Hospital,2013,28
+Pampilhosa da Serra,2013,0
+Penacova,2013,20
+Penela,2013,6
+Soure,2013,21
+Tábua,2013,13
+Vila Nova de Poiares,2013,5
+Alvaiázere,2013,7
+Ansião,2013,11
+Batalha,2013,10
+Castanheira de Pêra,2013,2
+Figueiró dos Vinhos,2013,8
+Leiria,2013,405
+Marinha Grande,2013,28
+Pedrógão Grande,2013,1
+Pombal,2013,91
+Porto de Mós,2013,21
+Aguiar da Beira,2013,6
+Carregal do Sal,2013,10
+Castro Daire,2013,13
+Mangualde,2013,31
+Nelas,2013,26
+Oliveira de Frades,2013,12
+Penalva do Castelo,2013,6
+Santa Comba Dão,2013,20
+São Pedro do Sul,2013,36
+Sátão,2013,17
+Tondela,2013,51
+Vila Nova de Paiva,2013,7
+Viseu,2013,564
+Vouzela,2013,13
+Castelo Branco,2013,215
+Idanha-a-Nova,2013,6
+Oleiros,2013,0
+Penamacor,2013,7
+Proença-a-Nova,2013,10
+Vila Velha de Ródão,2013,3
+Abrantes,2013,95
+Alcanena,2013,19
+Constância,2013,2
+Entroncamento,2013,59
+Ferreira do Zêzere,2013,3
+Mação,2013,5
+Ourém,2013,52
+Sardoal,2013,6
+Sertã,2013,13
+Tomar,2013,90
+Torres Novas,2013,102
+Vila de Rei,2013,3
+Vila Nova da Barquinha,2013,5
+Almeida,2013,15
+Belmonte,2013,9
+Celorico da Beira,2013,3
+Covilhã,2013,174
+Figueira de Castelo Rodrigo,2013,11
+Fornos de Algodres,2013,11
+Fundão,2013,46
+Gouveia,2013,22
+Guarda,2013,198
+Manteigas,2013,6
+Mêda,2013,6
+Pinhel,2013,13
+Sabugal,2013,13
+Seia,2013,48
+Trancoso,2013,14
+Alcochete,2013,43
+Almada,2013,664
+Amadora,2013,510
+Barreiro,2013,209
+Cascais,2013,1432
+Lisboa,2013,8626
+Loures,2013,620
+Mafra,2013,155
+Moita,2013,70
+Montijo,2013,116
+Odivelas,2013,423
+Oeiras,2013,1564
+Palmela,2013,143
+Seixal,2013,270
+Sesimbra,2013,83
+Setúbal,2013,497
+Sintra,2013,848
+Vila Franca de Xira,2013,209
+Alcácer do Sal,2013,11
+Grândola,2013,14
+Odemira,2013,23
+Santiago do Cacém,2013,75
+Sines,2013,33
+Aljustrel,2013,11
+Almodôvar,2013,6
+Alvito,2013,2
+Barrancos,2013,2
+Beja,2013,172
+Castro Verde,2013,5
+Cuba,2013,6
+Ferreira do Alentejo,2013,10
+Mértola,2013,4
+Moura,2013,19
+Ourique,2013,7
+Serpa,2013,17
+Vidigueira,2013,6
+Almeirim,2013,37
+Alpiarça,2013,10
+Azambuja,2013,21
+Benavente,2013,32
+Cartaxo,2013,47
+Chamusca,2013,9
+Coruche,2013,24
+Golegã,2013,8
+Rio Maior,2013,22
+Salvaterra de Magos,2013,16
+Santarém,2013,269
+Alter do Chão,2013,5
+Arronches,2013,8
+Avis,2013,4
+Campo Maior,2013,56
+Castelo de Vide,2013,7
+Crato,2013,2
+Elvas,2013,109
+Fronteira,2013,4
+Gavião,2013,2
+Marvão,2013,6
+Monforte,2013,5
+Nisa,2013,10
+Ponte de Sor,2013,25
+Portalegre,2013,116
+Sousel,2013,7
+Alandroal,2013,7
+Arraiolos,2013,10
+Borba,2013,11
+Estremoz,2013,24
+Évora,2013,391
+Montemor-o-Novo,2013,22
+Mora,2013,5
+Mourão,2013,1
+Portel,2013,6
+Redondo,2013,7
+Reguengos de Monsaraz,2013,10
+Vendas Novas,2013,15
+Viana do Alentejo,2013,3
+Vila Viçosa,2013,17
+Albufeira,2013,81
+Alcoutim,2013,5
+Aljezur,2013,10
+Castro Marim,2013,9
+Faro,2013,555
+Lagoa,2013,67
+Lagos,2013,84
+Loulé,2013,146
+Monchique,2013,4
+Olhão,2013,80
+Portimão,2013,301
+São Brás de Alportel,2013,33
+Silves,2013,39
+Tavira,2013,56
+Vila do Bispo,2013,3
+Vila Real de Santo António,2013,38
+Vila do Porto,2013,8
+Lagoa [R.A.A.],2013,28
+Nordeste,2013,4
+Ponta Delgada,2013,322
+Povoação,2013,7
+Ribeira Grande,2013,34
+Vila Franca do Campo,2013,10
+Angra do Heroísmo,2013,108
+Vila da Praia da Vitória,2013,44
+Santa Cruz da Graciosa,2013,1
+Calheta [R.A.A.],2013,2
+Velas,2013,11
+Lajes do Pico,2013,7
+Madalena,2013,4
+São Roque do Pico,2013,7
+Horta,2013,42
+Lajes das Flores,2013,0
+Santa Cruz das Flores,2013,1
+Corvo,2013,1
+Calheta [R.A.M.],2013,7
+Câmara de Lobos,2013,30
+Funchal,2013,597
+Machico,2013,28
+Ponta do Sol,2013,2
+Porto Moniz,2013,3
+Ribeira Brava,2013,7
+Santa Cruz,2013,94
+Santana,2013,3
+São Vicente,2013,5
+Porto Santo,2013,2
+Arcos de Valdevez,2014,38
+Caminha,2014,70
+Melgaço,2014,27
+Monção,2014,50
+Paredes de Coura,2014,9
+Ponte da Barca,2014,24
+Ponte de Lima,2014,70
+Valença,2014,19
+Viana do Castelo,2014,418
+Vila Nova de Cerveira,2014,24
+Amares,2014,38
+Barcelos,2014,218
+Braga,2014,1129
+Esposende,2014,100
+Terras de Bouro,2014,5
+Vila Verde,2014,57
+Cabeceiras de Basto,2014,31
+Fafe,2014,105
+Guimarães,2014,470
+Mondim de Basto,2014,8
+Póvoa de Lanhoso,2014,26
+Vieira do Minho,2014,13
+Vila Nova de Famalicão,2014,324
+Vizela,2014,51
+Arouca,2014,25
+Espinho,2014,169
+Gondomar,2014,567
+Maia,2014,797
+Matosinhos,2014,1408
+Oliveira de Azeméis,2014,128
+Paredes,2014,118
+Porto,2014,4422
+Póvoa de Varzim,2014,288
+Santa Maria da Feira,2014,306
+Santo Tirso,2014,199
+São João da Madeira,2014,81
+Trofa,2014,108
+Vale de Cambra,2014,53
+Valongo,2014,283
+Vila do Conde,2014,281
+Vila Nova de Gaia,2014,1493
+Boticas,2014,8
+Chaves,2014,165
+Montalegre,2014,10
+Ribeira de Pena,2014,9
+Valpaços,2014,38
+Vila Pouca de Aguiar,2014,22
+Amarante,2014,93
+Baião,2014,16
+Castelo de Paiva,2014,13
+Celorico de Basto,2014,19
+Cinfães,2014,18
+Felgueiras,2014,66
+Lousada,2014,38
+Marco de Canaveses,2014,55
+Paços de Ferreira,2014,81
+Penafiel,2014,117
+Resende,2014,11
+Alijó,2014,6
+Armamar,2014,5
+Carrazeda de Ansiães,2014,4
+Freixo de Espada à Cinta,2014,5
+Lamego,2014,69
+Mesão Frio,2014,8
+Moimenta da Beira,2014,8
+Murça,2014,4
+Penedono,2014,3
+Peso da Régua,2014,32
+Sabrosa,2014,7
+Santa Marta de Penaguião,2014,2
+São João da Pesqueira,2014,10
+Sernancelhe,2014,9
+Tabuaço,2014,3
+Tarouca,2014,10
+Torre de Moncorvo,2014,9
+Vila Nova de Foz Côa,2014,8
+Vila Real,2014,267
+Alfândega da Fé,2014,9
+Bragança,2014,153
+Macedo de Cavaleiros,2014,34
+Miranda do Douro,2014,10
+Mirandela,2014,79
+Mogadouro,2014,16
+Vila Flor,2014,8
+Vimioso,2014,4
+Vinhais,2014,6
+Alcobaça,2014,62
+Alenquer,2014,51
+Arruda dos Vinhos,2014,25
+Bombarral,2014,18
+Cadaval,2014,6
+Caldas da Rainha,2014,169
+Lourinhã,2014,34
+Nazaré,2014,18
+Óbidos,2014,14
+Peniche,2014,37
+Sobral de Monte Agraço,2014,15
+Torres Vedras,2014,168
+Águeda,2014,99
+Albergaria-a-Velha,2014,52
+Anadia,2014,74
+Aveiro,2014,409
+Estarreja,2014,52
+Ílhavo,2014,94
+Murtosa,2014,18
+Oliveira do Bairro,2014,52
+Ovar,2014,156
+Sever do Vouga,2014,16
+Vagos,2014,44
+Arganil,2014,9
+Cantanhede,2014,94
+Coimbra,2014,4041
+Condeixa-a-Nova,2014,83
+Figueira da Foz,2014,279
+Góis,2014,1
+Lousã,2014,22
+Mealhada,2014,54
+Mira,2014,29
+Miranda do Corvo,2014,21
+Montemor-o-Velho,2014,53
+Mortágua,2014,22
+Oliveira do Hospital,2014,26
+Pampilhosa da Serra,2014,0
+Penacova,2014,18
+Penela,2014,7
+Soure,2014,23
+Tábua,2014,15
+Vila Nova de Poiares,2014,5
+Alvaiázere,2014,8
+Ansião,2014,12
+Batalha,2014,11
+Castanheira de Pêra,2014,2
+Figueiró dos Vinhos,2014,9
+Leiria,2014,410
+Marinha Grande,2014,29
+Pedrógão Grande,2014,2
+Pombal,2014,100
+Porto de Mós,2014,22
+Aguiar da Beira,2014,6
+Carregal do Sal,2014,11
+Castro Daire,2014,11
+Mangualde,2014,35
+Nelas,2014,27
+Oliveira de Frades,2014,15
+Penalva do Castelo,2014,10
+Santa Comba Dão,2014,24
+São Pedro do Sul,2014,38
+Sátão,2014,17
+Tondela,2014,51
+Vila Nova de Paiva,2014,7
+Viseu,2014,600
+Vouzela,2014,13
+Castelo Branco,2014,224
+Idanha-a-Nova,2014,6
+Oleiros,2014,0
+Penamacor,2014,7
+Proença-a-Nova,2014,10
+Vila Velha de Ródão,2014,4
+Abrantes,2014,99
+Alcanena,2014,20
+Constância,2014,3
+Entroncamento,2014,60
+Ferreira do Zêzere,2014,2
+Mação,2014,5
+Ourém,2014,51
+Sardoal,2014,8
+Sertã,2014,13
+Tomar,2014,95
+Torres Novas,2014,102
+Vila de Rei,2014,3
+Vila Nova da Barquinha,2014,5
+Almeida,2014,16
+Belmonte,2014,8
+Celorico da Beira,2014,2
+Covilhã,2014,187
+Figueira de Castelo Rodrigo,2014,11
+Fornos de Algodres,2014,12
+Fundão,2014,47
+Gouveia,2014,26
+Guarda,2014,211
+Manteigas,2014,6
+Mêda,2014,5
+Pinhel,2014,13
+Sabugal,2014,13
+Seia,2014,53
+Trancoso,2014,17
+Alcochete,2014,44
+Almada,2014,686
+Amadora,2014,514
+Barreiro,2014,220
+Cascais,2014,1462
+Lisboa,2014,8794
+Loures,2014,633
+Mafra,2014,156
+Moita,2014,74
+Montijo,2014,123
+Odivelas,2014,430
+Oeiras,2014,1597
+Palmela,2014,147
+Seixal,2014,292
+Sesimbra,2014,83
+Setúbal,2014,512
+Sintra,2014,879
+Vila Franca de Xira,2014,214
+Alcácer do Sal,2014,13
+Grândola,2014,17
+Odemira,2014,24
+Santiago do Cacém,2014,80
+Sines,2014,36
+Aljustrel,2014,10
+Almodôvar,2014,10
+Alvito,2014,3
+Barrancos,2014,2
+Beja,2014,182
+Castro Verde,2014,3
+Cuba,2014,6
+Ferreira do Alentejo,2014,8
+Mértola,2014,4
+Moura,2014,24
+Ourique,2014,8
+Serpa,2014,19
+Vidigueira,2014,6
+Almeirim,2014,39
+Alpiarça,2014,12
+Azambuja,2014,21
+Benavente,2014,35
+Cartaxo,2014,46
+Chamusca,2014,11
+Coruche,2014,27
+Golegã,2014,7
+Rio Maior,2014,24
+Salvaterra de Magos,2014,21
+Santarém,2014,275
+Alter do Chão,2014,4
+Arronches,2014,8
+Avis,2014,4
+Campo Maior,2014,55
+Castelo de Vide,2014,8
+Crato,2014,3
+Elvas,2014,116
+Fronteira,2014,4
+Gavião,2014,2
+Marvão,2014,6
+Monforte,2014,5
+Nisa,2014,9
+Ponte de Sor,2014,26
+Portalegre,2014,113
+Sousel,2014,7
+Alandroal,2014,7
+Arraiolos,2014,9
+Borba,2014,11
+Estremoz,2014,22
+Évora,2014,405
+Montemor-o-Novo,2014,23
+Mora,2014,5
+Mourão,2014,1
+Portel,2014,6
+Redondo,2014,7
+Reguengos de Monsaraz,2014,10
+Vendas Novas,2014,16
+Viana do Alentejo,2014,3
+Vila Viçosa,2014,16
+Albufeira,2014,83
+Alcoutim,2014,5
+Aljezur,2014,11
+Castro Marim,2014,10
+Faro,2014,568
+Lagoa,2014,67
+Lagos,2014,87
+Loulé,2014,156
+Monchique,2014,4
+Olhão,2014,83
+Portimão,2014,308
+São Brás de Alportel,2014,34
+Silves,2014,44
+Tavira,2014,58
+Vila do Bispo,2014,3
+Vila Real de Santo António,2014,39
+Vila do Porto,2014,8
+Lagoa [R.A.A.],2014,27
+Nordeste,2014,4
+Ponta Delgada,2014,342
+Povoação,2014,7
+Ribeira Grande,2014,35
+Vila Franca do Campo,2014,13
+Angra do Heroísmo,2014,117
+Vila da Praia da Vitória,2014,44
+Santa Cruz da Graciosa,2014,2
+Calheta [R.A.A.],2014,2
+Velas,2014,12
+Lajes do Pico,2014,9
+Madalena,2014,4
+São Roque do Pico,2014,8
+Horta,2014,42
+Lajes das Flores,2014,0
+Santa Cruz das Flores,2014,1
+Corvo,2014,1
+Calheta [R.A.M.],2014,7
+Câmara de Lobos,2014,37
+Funchal,2014,633
+Machico,2014,31
+Ponta do Sol,2014,4
+Porto Moniz,2014,3
+Ribeira Brava,2014,12
+Santa Cruz,2014,101
+Santana,2014,3
+São Vicente,2014,6
+Porto Santo,2014,4
+Arcos de Valdevez,2015,37
+Caminha,2015,74
+Melgaço,2015,27
+Monção,2015,52
+Paredes de Coura,2015,13
+Ponte da Barca,2015,27
+Ponte de Lima,2015,77
+Valença,2015,23
+Viana do Castelo,2015,427
+Vila Nova de Cerveira,2015,24
+Amares,2015,43
+Barcelos,2015,240
+Braga,2015,1210
+Esposende,2015,116
+Terras de Bouro,2015,5
+Vila Verde,2015,60
+Cabeceiras de Basto,2015,33
+Fafe,2015,116
+Guimarães,2015,504
+Mondim de Basto,2015,8
+Póvoa de Lanhoso,2015,28
+Vieira do Minho,2015,13
+Vila Nova de Famalicão,2015,358
+Vizela,2015,53
+Arouca,2015,26
+Espinho,2015,176
+Gondomar,2015,605
+Maia,2015,810
+Matosinhos,2015,1461
+Oliveira de Azeméis,2015,134
+Paredes,2015,125
+Porto,2015,4531
+Póvoa de Varzim,2015,295
+Santa Maria da Feira,2015,328
+Santo Tirso,2015,209
+São João da Madeira,2015,84
+Trofa,2015,114
+Vale de Cambra,2015,61
+Valongo,2015,299
+Vila do Conde,2015,304
+Vila Nova de Gaia,2015,1547
+Boticas,2015,8
+Chaves,2015,175
+Montalegre,2015,10
+Ribeira de Pena,2015,8
+Valpaços,2015,38
+Vila Pouca de Aguiar,2015,23
+Amarante,2015,104
+Baião,2015,15
+Castelo de Paiva,2015,15
+Celorico de Basto,2015,20
+Cinfães,2015,18
+Felgueiras,2015,76
+Lousada,2015,45
+Marco de Canaveses,2015,57
+Paços de Ferreira,2015,87
+Penafiel,2015,126
+Resende,2015,13
+Alijó,2015,7
+Armamar,2015,6
+Carrazeda de Ansiães,2015,4
+Freixo de Espada à Cinta,2015,5
+Lamego,2015,80
+Mesão Frio,2015,9
+Moimenta da Beira,2015,13
+Murça,2015,4
+Penedono,2015,3
+Peso da Régua,2015,33
+Sabrosa,2015,7
+Santa Marta de Penaguião,2015,2
+São João da Pesqueira,2015,10
+Sernancelhe,2015,7
+Tabuaço,2015,4
+Tarouca,2015,12
+Torre de Moncorvo,2015,9
+Vila Nova de Foz Côa,2015,9
+Vila Real,2015,286
+Alfândega da Fé,2015,11
+Bragança,2015,160
+Macedo de Cavaleiros,2015,33
+Miranda do Douro,2015,10
+Mirandela,2015,84
+Mogadouro,2015,15
+Vila Flor,2015,8
+Vimioso,2015,4
+Vinhais,2015,6
+Alcobaça,2015,66
+Alenquer,2015,59
+Arruda dos Vinhos,2015,25
+Bombarral,2015,20
+Cadaval,2015,6
+Caldas da Rainha,2015,172
+Lourinhã,2015,35
+Nazaré,2015,17
+Óbidos,2015,15
+Peniche,2015,34
+Sobral de Monte Agraço,2015,15
+Torres Vedras,2015,174
+Águeda,2015,104
+Albergaria-a-Velha,2015,53
+Anadia,2015,74
+Aveiro,2015,419
+Estarreja,2015,53
+Ílhavo,2015,100
+Murtosa,2015,17
+Oliveira do Bairro,2015,56
+Ovar,2015,164
+Sever do Vouga,2015,18
+Vagos,2015,46
+Arganil,2015,10
+Cantanhede,2015,103
+Coimbra,2015,4142
+Condeixa-a-Nova,2015,88
+Figueira da Foz,2015,289
+Góis,2015,1
+Lousã,2015,23
+Mealhada,2015,56
+Mira,2015,29
+Miranda do Corvo,2015,25
+Montemor-o-Velho,2015,55
+Mortágua,2015,24
+Oliveira do Hospital,2015,28
+Pampilhosa da Serra,2015,1
+Penacova,2015,18
+Penela,2015,9
+Soure,2015,26
+Tábua,2015,15
+Vila Nova de Poiares,2015,7
+Alvaiázere,2015,8
+Ansião,2015,14
+Batalha,2015,10
+Castanheira de Pêra,2015,2
+Figueiró dos Vinhos,2015,11
+Leiria,2015,420
+Marinha Grande,2015,30
+Pedrógão Grande,2015,2
+Pombal,2015,102
+Porto de Mós,2015,22
+Aguiar da Beira,2015,7
+Carregal do Sal,2015,13
+Castro Daire,2015,11
+Mangualde,2015,34
+Nelas,2015,27
+Oliveira de Frades,2015,15
+Penalva do Castelo,2015,12
+Santa Comba Dão,2015,24
+São Pedro do Sul,2015,41
+Sátão,2015,20
+Tondela,2015,54
+Vila Nova de Paiva,2015,8
+Viseu,2015,629
+Vouzela,2015,12
+Castelo Branco,2015,227
+Idanha-a-Nova,2015,6
+Oleiros,2015,1
+Penamacor,2015,6
+Proença-a-Nova,2015,11
+Vila Velha de Ródão,2015,4
+Abrantes,2015,102
+Alcanena,2015,22
+Constância,2015,4
+Entroncamento,2015,63
+Ferreira do Zêzere,2015,2
+Mação,2015,5
+Ourém,2015,55
+Sardoal,2015,8
+Sertã,2015,13
+Tomar,2015,98
+Torres Novas,2015,107
+Vila de Rei,2015,3
+Vila Nova da Barquinha,2015,5
+Almeida,2015,16
+Belmonte,2015,7
+Celorico da Beira,2015,2
+Covilhã,2015,190
+Figueira de Castelo Rodrigo,2015,12
+Fornos de Algodres,2015,12
+Fundão,2015,47
+Gouveia,2015,27
+Guarda,2015,228
+Manteigas,2015,6
+Mêda,2015,5
+Pinhel,2015,15
+Sabugal,2015,13
+Seia,2015,56
+Trancoso,2015,18
+Alcochete,2015,47
+Almada,2015,722
+Amadora,2015,533
+Barreiro,2015,228
+Cascais,2015,1507
+Lisboa,2015,8984
+Loures,2015,639
+Mafra,2015,164
+Moita,2015,76
+Montijo,2015,129
+Odivelas,2015,445
+Oeiras,2015,1623
+Palmela,2015,162
+Seixal,2015,301
+Sesimbra,2015,88
+Setúbal,2015,526
+Sintra,2015,919
+Vila Franca de Xira,2015,224
+Alcácer do Sal,2015,11
+Grândola,2015,16
+Odemira,2015,25
+Santiago do Cacém,2015,85
+Sines,2015,35
+Aljustrel,2015,11
+Almodôvar,2015,10
+Alvito,2015,3
+Barrancos,2015,2
+Beja,2015,183
+Castro Verde,2015,3
+Cuba,2015,6
+Ferreira do Alentejo,2015,9
+Mértola,2015,5
+Moura,2015,24
+Ourique,2015,6
+Serpa,2015,21
+Vidigueira,2015,6
+Almeirim,2015,40
+Alpiarça,2015,10
+Azambuja,2015,21
+Benavente,2015,39
+Cartaxo,2015,47
+Chamusca,2015,10
+Coruche,2015,30
+Golegã,2015,7
+Rio Maior,2015,25
+Salvaterra de Magos,2015,22
+Santarém,2015,291
+Alter do Chão,2015,4
+Arronches,2015,8
+Avis,2015,3
+Campo Maior,2015,56
+Castelo de Vide,2015,8
+Crato,2015,3
+Elvas,2015,119
+Fronteira,2015,4
+Gavião,2015,2
+Marvão,2015,6
+Monforte,2015,5
+Nisa,2015,9
+Ponte de Sor,2015,31
+Portalegre,2015,113
+Sousel,2015,6
+Alandroal,2015,6
+Arraiolos,2015,8
+Borba,2015,12
+Estremoz,2015,24
+Évora,2015,414
+Montemor-o-Novo,2015,25
+Mora,2015,6
+Mourão,2015,1
+Portel,2015,6
+Redondo,2015,7
+Reguengos de Monsaraz,2015,11
+Vendas Novas,2015,16
+Viana do Alentejo,2015,4
+Vila Viçosa,2015,18
+Albufeira,2015,83
+Alcoutim,2015,6
+Aljezur,2015,10
+Castro Marim,2015,12
+Faro,2015,585
+Lagoa,2015,72
+Lagos,2015,88
+Loulé,2015,162
+Monchique,2015,6
+Olhão,2015,92
+Portimão,2015,321
+São Brás de Alportel,2015,35
+Silves,2015,45
+Tavira,2015,61
+Vila do Bispo,2015,3
+Vila Real de Santo António,2015,40
+Vila do Porto,2015,9
+Lagoa [R.A.A.],2015,29
+Nordeste,2015,4
+Ponta Delgada,2015,366
+Povoação,2015,9
+Ribeira Grande,2015,40
+Vila Franca do Campo,2015,13
+Angra do Heroísmo,2015,124
+Vila da Praia da Vitória,2015,46
+Santa Cruz da Graciosa,2015,3
+Calheta [R.A.A.],2015,2
+Velas,2015,13
+Lajes do Pico,2015,10
+Madalena,2015,4
+São Roque do Pico,2015,8
+Horta,2015,43
+Lajes das Flores,2015,0
+Santa Cruz das Flores,2015,2
+Corvo,2015,1
+Calheta [R.A.M.],2015,7
+Câmara de Lobos,2015,42
+Funchal,2015,679
+Machico,2015,32
+Ponta do Sol,2015,5
+Porto Moniz,2015,5
+Ribeira Brava,2015,20
+Santa Cruz,2015,110
+Santana,2015,4
+São Vicente,2015,6
+Porto Santo,2015,4
+Arcos de Valdevez,2016,39
+Caminha,2016,75
+Melgaço,2016,24
+Monção,2016,56
+Paredes de Coura,2016,13
+Ponte da Barca,2016,28
+Ponte de Lima,2016,83
+Valença,2016,24
+Viana do Castelo,2016,434
+Vila Nova de Cerveira,2016,26
+Amares,2016,46
+Barcelos,2016,260
+Braga,2016,1281
+Esposende,2016,124
+Terras de Bouro,2016,7
+Vila Verde,2016,61
+Cabeceiras de Basto,2016,36
+Fafe,2016,131
+Guimarães,2016,536
+Mondim de Basto,2016,9
+Póvoa de Lanhoso,2016,30
+Vieira do Minho,2016,15
+Vila Nova de Famalicão,2016,379
+Vizela,2016,54
+Arouca,2016,26
+Espinho,2016,185
+Gondomar,2016,640
+Maia,2016,842
+Matosinhos,2016,1485
+Oliveira de Azeméis,2016,140
+Paredes,2016,135
+Porto,2016,4650
+Póvoa de Varzim,2016,315
+Santa Maria da Feira,2016,347
+Santo Tirso,2016,226
+São João da Madeira,2016,81
+Trofa,2016,120
+Vale de Cambra,2016,66
+Valongo,2016,307
+Vila do Conde,2016,321
+Vila Nova de Gaia,2016,1598
+Boticas,2016,8
+Chaves,2016,184
+Montalegre,2016,10
+Ribeira de Pena,2016,10
+Valpaços,2016,36
+Vila Pouca de Aguiar,2016,25
+Amarante,2016,112
+Baião,2016,16
+Castelo de Paiva,2016,16
+Celorico de Basto,2016,22
+Cinfães,2016,20
+Felgueiras,2016,86
+Lousada,2016,47
+Marco de Canaveses,2016,64
+Paços de Ferreira,2016,97
+Penafiel,2016,135
+Resende,2016,15
+Alijó,2016,8
+Armamar,2016,6
+Carrazeda de Ansiães,2016,5
+Freixo de Espada à Cinta,2016,5
+Lamego,2016,86
+Mesão Frio,2016,9
+Moimenta da Beira,2016,16
+Murça,2016,5
+Penedono,2016,3
+Peso da Régua,2016,36
+Sabrosa,2016,7
+Santa Marta de Penaguião,2016,4
+São João da Pesqueira,2016,11
+Sernancelhe,2016,7
+Tabuaço,2016,4
+Tarouca,2016,12
+Torre de Moncorvo,2016,11
+Vila Nova de Foz Côa,2016,13
+Vila Real,2016,298
+Alfândega da Fé,2016,11
+Bragança,2016,163
+Macedo de Cavaleiros,2016,37
+Miranda do Douro,2016,10
+Mirandela,2016,83
+Mogadouro,2016,16
+Vila Flor,2016,9
+Vimioso,2016,4
+Vinhais,2016,8
+Alcobaça,2016,70
+Alenquer,2016,64
+Arruda dos Vinhos,2016,29
+Bombarral,2016,19
+Cadaval,2016,8
+Caldas da Rainha,2016,182
+Lourinhã,2016,38
+Nazaré,2016,20
+Óbidos,2016,14
+Peniche,2016,37
+Sobral de Monte Agraço,2016,17
+Torres Vedras,2016,183
+Águeda,2016,109
+Albergaria-a-Velha,2016,56
+Anadia,2016,80
+Aveiro,2016,437
+Estarreja,2016,57
+Ílhavo,2016,101
+Murtosa,2016,16
+Oliveira do Bairro,2016,54
+Ovar,2016,169
+Sever do Vouga,2016,18
+Vagos,2016,48
+Arganil,2016,9
+Cantanhede,2016,104
+Coimbra,2016,4239
+Condeixa-a-Nova,2016,92
+Figueira da Foz,2016,301
+Góis,2016,2
+Lousã,2016,23
+Mealhada,2016,56
+Mira,2016,35
+Miranda do Corvo,2016,23
+Montemor-o-Velho,2016,56
+Mortágua,2016,26
+Oliveira do Hospital,2016,29
+Pampilhosa da Serra,2016,1
+Penacova,2016,18
+Penela,2016,9
+Soure,2016,26
+Tábua,2016,15
+Vila Nova de Poiares,2016,8
+Alvaiázere,2016,10
+Ansião,2016,15
+Batalha,2016,13
+Castanheira de Pêra,2016,2
+Figueiró dos Vinhos,2016,11
+Leiria,2016,435
+Marinha Grande,2016,31
+Pedrógão Grande,2016,3
+Pombal,2016,107
+Porto de Mós,2016,25
+Aguiar da Beira,2016,7
+Carregal do Sal,2016,13
+Castro Daire,2016,14
+Mangualde,2016,33
+Nelas,2016,29
+Oliveira de Frades,2016,15
+Penalva do Castelo,2016,12
+Santa Comba Dão,2016,25
+São Pedro do Sul,2016,46
+Sátão,2016,20
+Tondela,2016,59
+Vila Nova de Paiva,2016,7
+Viseu,2016,669
+Vouzela,2016,12
+Castelo Branco,2016,239
+Idanha-a-Nova,2016,6
+Oleiros,2016,2
+Penamacor,2016,6
+Proença-a-Nova,2016,12
+Vila Velha de Ródão,2016,5
+Abrantes,2016,101
+Alcanena,2016,22
+Constância,2016,5
+Entroncamento,2016,67
+Ferreira do Zêzere,2016,3
+Mação,2016,5
+Ourém,2016,57
+Sardoal,2016,7
+Sertã,2016,15
+Tomar,2016,104
+Torres Novas,2016,116
+Vila de Rei,2016,3
+Vila Nova da Barquinha,2016,6
+Almeida,2016,17
+Belmonte,2016,6
+Celorico da Beira,2016,2
+Covilhã,2016,197
+Figueira de Castelo Rodrigo,2016,11
+Fornos de Algodres,2016,13
+Fundão,2016,52
+Gouveia,2016,26
+Guarda,2016,236
+Manteigas,2016,6
+Mêda,2016,5
+Pinhel,2016,16
+Sabugal,2016,14
+Seia,2016,61
+Trancoso,2016,21
+Alcochete,2016,52
+Almada,2016,743
+Amadora,2016,529
+Barreiro,2016,234
+Cascais,2016,1533
+Lisboa,2016,9240
+Loures,2016,655
+Mafra,2016,170
+Moita,2016,73
+Montijo,2016,133
+Odivelas,2016,458
+Oeiras,2016,1661
+Palmela,2016,168
+Seixal,2016,324
+Sesimbra,2016,92
+Setúbal,2016,547
+Sintra,2016,940
+Vila Franca de Xira,2016,232
+Alcácer do Sal,2016,14
+Grândola,2016,17
+Odemira,2016,24
+Santiago do Cacém,2016,90
+Sines,2016,35
+Aljustrel,2016,13
+Almodôvar,2016,10
+Alvito,2016,4
+Barrancos,2016,2
+Beja,2016,188
+Castro Verde,2016,3
+Cuba,2016,8
+Ferreira do Alentejo,2016,8
+Mértola,2016,6
+Moura,2016,26
+Ourique,2016,6
+Serpa,2016,18
+Vidigueira,2016,8
+Almeirim,2016,37
+Alpiarça,2016,11
+Azambuja,2016,20
+Benavente,2016,38
+Cartaxo,2016,48
+Chamusca,2016,10
+Coruche,2016,31
+Golegã,2016,8
+Rio Maior,2016,26
+Salvaterra de Magos,2016,25
+Santarém,2016,306
+Alter do Chão,2016,4
+Arronches,2016,7
+Avis,2016,3
+Campo Maior,2016,53
+Castelo de Vide,2016,8
+Crato,2016,3
+Elvas,2016,128
+Fronteira,2016,5
+Gavião,2016,2
+Marvão,2016,7
+Monforte,2016,5
+Nisa,2016,12
+Ponte de Sor,2016,29
+Portalegre,2016,110
+Sousel,2016,5
+Alandroal,2016,8
+Arraiolos,2016,8
+Borba,2016,11
+Estremoz,2016,25
+Évora,2016,436
+Montemor-o-Novo,2016,26
+Mora,2016,6
+Mourão,2016,1
+Portel,2016,6
+Redondo,2016,8
+Reguengos de Monsaraz,2016,14
+Vendas Novas,2016,17
+Viana do Alentejo,2016,6
+Vila Viçosa,2016,18
+Albufeira,2016,86
+Alcoutim,2016,8
+Aljezur,2016,11
+Castro Marim,2016,13
+Faro,2016,600
+Lagoa,2016,75
+Lagos,2016,95
+Loulé,2016,168
+Monchique,2016,6
+Olhão,2016,95
+Portimão,2016,336
+São Brás de Alportel,2016,37
+Silves,2016,45
+Tavira,2016,67
+Vila do Bispo,2016,4
+Vila Real de Santo António,2016,40
+Vila do Porto,2016,9
+Lagoa [R.A.A.],2016,28
+Nordeste,2016,4
+Ponta Delgada,2016,393
+Povoação,2016,9
+Ribeira Grande,2016,46
+Vila Franca do Campo,2016,13
+Angra do Heroísmo,2016,134
+Vila da Praia da Vitória,2016,47
+Santa Cruz da Graciosa,2016,3
+Calheta [R.A.A.],2016,4
+Velas,2016,13
+Lajes do Pico,2016,11
+Madalena,2016,3
+São Roque do Pico,2016,7
+Horta,2016,42
+Lajes das Flores,2016,0
+Santa Cruz das Flores,2016,3
+Corvo,2016,1
+Calheta [R.A.M.],2016,7
+Câmara de Lobos,2016,47
+Funchal,2016,719
+Machico,2016,34
+Ponta do Sol,2016,7
+Porto Moniz,2016,3
+Ribeira Brava,2016,23
+Santa Cruz,2016,112
+Santana,2016,5
+São Vicente,2016,6
+Porto Santo,2016,5
+Arcos de Valdevez,2017,40
+Caminha,2017,78
+Melgaço,2017,22
+Monção,2017,61
+Paredes de Coura,2017,12
+Ponte da Barca,2017,28
+Ponte de Lima,2017,91
+Valença,2017,23
+Viana do Castelo,2017,445
+Vila Nova de Cerveira,2017,26
+Amares,2017,46
+Barcelos,2017,271
+Braga,2017,1349
+Esposende,2017,130
+Terras de Bouro,2017,7
+Vila Verde,2017,66
+Cabeceiras de Basto,2017,37
+Fafe,2017,147
+Guimarães,2017,564
+Mondim de Basto,2017,9
+Póvoa de Lanhoso,2017,33
+Vieira do Minho,2017,15
+Vila Nova de Famalicão,2017,404
+Vizela,2017,58
+Arouca,2017,28
+Espinho,2017,198
+Gondomar,2017,669
+Maia,2017,864
+Matosinhos,2017,1523
+Oliveira de Azeméis,2017,148
+Paredes,2017,143
+Porto,2017,4754
+Póvoa de Varzim,2017,325
+Santa Maria da Feira,2017,368
+Santo Tirso,2017,236
+São João da Madeira,2017,85
+Trofa,2017,125
+Vale de Cambra,2017,74
+Valongo,2017,316
+Vila do Conde,2017,344
+Vila Nova de Gaia,2017,1664
+Boticas,2017,8
+Chaves,2017,194
+Montalegre,2017,12
+Ribeira de Pena,2017,10
+Valpaços,2017,36
+Vila Pouca de Aguiar,2017,26
+Amarante,2017,122
+Baião,2017,20
+Castelo de Paiva,2017,18
+Celorico de Basto,2017,25
+Cinfães,2017,20
+Felgueiras,2017,101
+Lousada,2017,50
+Marco de Canaveses,2017,67
+Paços de Ferreira,2017,104
+Penafiel,2017,150
+Resende,2017,16
+Alijó,2017,9
+Armamar,2017,6
+Carrazeda de Ansiães,2017,6
+Freixo de Espada à Cinta,2017,5
+Lamego,2017,90
+Mesão Frio,2017,9
+Moimenta da Beira,2017,17
+Murça,2017,7
+Penedono,2017,3
+Peso da Régua,2017,37
+Sabrosa,2017,6
+Santa Marta de Penaguião,2017,5
+São João da Pesqueira,2017,11
+Sernancelhe,2017,6
+Tabuaço,2017,4
+Tarouca,2017,13
+Torre de Moncorvo,2017,11
+Vila Nova de Foz Côa,2017,13
+Vila Real,2017,319
+Alfândega da Fé,2017,11
+Bragança,2017,169
+Macedo de Cavaleiros,2017,36
+Miranda do Douro,2017,11
+Mirandela,2017,84
+Mogadouro,2017,17
+Vila Flor,2017,8
+Vimioso,2017,4
+Vinhais,2017,8
+Alcobaça,2017,74
+Alenquer,2017,69
+Arruda dos Vinhos,2017,29
+Bombarral,2017,18
+Cadaval,2017,9
+Caldas da Rainha,2017,187
+Lourinhã,2017,42
+Nazaré,2017,20
+Óbidos,2017,12
+Peniche,2017,37
+Sobral de Monte Agraço,2017,17
+Torres Vedras,2017,198
+Águeda,2017,109
+Albergaria-a-Velha,2017,65
+Anadia,2017,87
+Aveiro,2017,460
+Estarreja,2017,59
+Ílhavo,2017,104
+Murtosa,2017,15
+Oliveira do Bairro,2017,57
+Ovar,2017,184
+Sever do Vouga,2017,20
+Vagos,2017,52
+Arganil,2017,10
+Cantanhede,2017,104
+Coimbra,2017,4375
+Condeixa-a-Nova,2017,96
+Figueira da Foz,2017,322
+Góis,2017,1
+Lousã,2017,27
+Mealhada,2017,62
+Mira,2017,39
+Miranda do Corvo,2017,25
+Montemor-o-Velho,2017,58
+Mortágua,2017,25
+Oliveira do Hospital,2017,34
+Pampilhosa da Serra,2017,1
+Penacova,2017,18
+Penela,2017,11
+Soure,2017,28
+Tábua,2017,15
+Vila Nova de Poiares,2017,8
+Alvaiázere,2017,10
+Ansião,2017,17
+Batalha,2017,17
+Castanheira de Pêra,2017,2
+Figueiró dos Vinhos,2017,11
+Leiria,2017,453
+Marinha Grande,2017,33
+Pedrógão Grande,2017,3
+Pombal,2017,110
+Porto de Mós,2017,29
+Aguiar da Beira,2017,8
+Carregal do Sal,2017,13
+Castro Daire,2017,16
+Mangualde,2017,34
+Nelas,2017,31
+Oliveira de Frades,2017,15
+Penalva do Castelo,2017,12
+Santa Comba Dão,2017,26
+São Pedro do Sul,2017,51
+Sátão,2017,22
+Tondela,2017,59
+Vila Nova de Paiva,2017,7
+Viseu,2017,702
+Vouzela,2017,14
+Castelo Branco,2017,246
+Idanha-a-Nova,2017,7
+Oleiros,2017,3
+Penamacor,2017,5
+Proença-a-Nova,2017,11
+Vila Velha de Ródão,2017,6
+Abrantes,2017,102
+Alcanena,2017,23
+Constância,2017,5
+Entroncamento,2017,72
+Ferreira do Zêzere,2017,3
+Mação,2017,4
+Ourém,2017,55
+Sardoal,2017,8
+Sertã,2017,17
+Tomar,2017,104
+Torres Novas,2017,121
+Vila de Rei,2017,3
+Vila Nova da Barquinha,2017,7
+Almeida,2017,16
+Belmonte,2017,7
+Celorico da Beira,2017,2
+Covilhã,2017,210
+Figueira de Castelo Rodrigo,2017,11
+Fornos de Algodres,2017,13
+Fundão,2017,53
+Gouveia,2017,26
+Guarda,2017,241
+Manteigas,2017,5
+Mêda,2017,7
+Pinhel,2017,19
+Sabugal,2017,13
+Seia,2017,64
+Trancoso,2017,24
+Alcochete,2017,51
+Almada,2017,746
+Amadora,2017,546
+Barreiro,2017,247
+Cascais,2017,1553
+Lisboa,2017,9457
+Loures,2017,668
+Mafra,2017,178
+Moita,2017,77
+Montijo,2017,137
+Odivelas,2017,466
+Oeiras,2017,1689
+Palmela,2017,176
+Seixal,2017,344
+Sesimbra,2017,93
+Setúbal,2017,566
+Sintra,2017,966
+Vila Franca de Xira,2017,237
+Alcácer do Sal,2017,13
+Grândola,2017,17
+Odemira,2017,24
+Santiago do Cacém,2017,87
+Sines,2017,36
+Aljustrel,2017,12
+Almodôvar,2017,13
+Alvito,2017,4
+Barrancos,2017,2
+Beja,2017,202
+Castro Verde,2017,6
+Cuba,2017,8
+Ferreira do Alentejo,2017,7
+Mértola,2017,6
+Moura,2017,28
+Ourique,2017,6
+Serpa,2017,19
+Vidigueira,2017,8
+Almeirim,2017,41
+Alpiarça,2017,8
+Azambuja,2017,19
+Benavente,2017,38
+Cartaxo,2017,48
+Chamusca,2017,9
+Coruche,2017,32
+Golegã,2017,8
+Rio Maior,2017,30
+Salvaterra de Magos,2017,30
+Santarém,2017,315
+Alter do Chão,2017,4
+Arronches,2017,7
+Avis,2017,3
+Campo Maior,2017,51
+Castelo de Vide,2017,9
+Crato,2017,3
+Elvas,2017,130
+Fronteira,2017,5
+Gavião,2017,2
+Marvão,2017,7
+Monforte,2017,5
+Nisa,2017,11
+Ponte de Sor,2017,28
+Portalegre,2017,116
+Sousel,2017,6
+Alandroal,2017,7
+Arraiolos,2017,8
+Borba,2017,12
+Estremoz,2017,25
+Évora,2017,441
+Montemor-o-Novo,2017,26
+Mora,2017,6
+Mourão,2017,1
+Portel,2017,5
+Redondo,2017,8
+Reguengos de Monsaraz,2017,12
+Vendas Novas,2017,16
+Viana do Alentejo,2017,7
+Vila Viçosa,2017,18
+Albufeira,2017,90
+Alcoutim,2017,9
+Aljezur,2017,11
+Castro Marim,2017,13
+Faro,2017,616
+Lagoa,2017,77
+Lagos,2017,98
+Loulé,2017,167
+Monchique,2017,7
+Olhão,2017,98
+Portimão,2017,345
+São Brás de Alportel,2017,38
+Silves,2017,47
+Tavira,2017,66
+Vila do Bispo,2017,5
+Vila Real de Santo António,2017,40
+Vila do Porto,2017,10
+Lagoa [R.A.A.],2017,25
+Nordeste,2017,6
+Ponta Delgada,2017,412
+Povoação,2017,11
+Ribeira Grande,2017,47
+Vila Franca do Campo,2017,13
+Angra do Heroísmo,2017,136
+Vila da Praia da Vitória,2017,48
+Santa Cruz da Graciosa,2017,4
+Calheta [R.A.A.],2017,4
+Velas,2017,14
+Lajes do Pico,2017,13
+Madalena,2017,3
+São Roque do Pico,2017,9
+Horta,2017,45
+Lajes das Flores,2017,0
+Santa Cruz das Flores,2017,4
+Corvo,2017,1
+Calheta [R.A.M.],2017,7
+Câmara de Lobos,2017,48
+Funchal,2017,760
+Machico,2017,37
+Ponta do Sol,2017,8
+Porto Moniz,2017,5
+Ribeira Brava,2017,25
+Santa Cruz,2017,122
+Santana,2017,5
+São Vicente,2017,6
+Porto Santo,2017,9
+Arcos de Valdevez,2018,42
+Caminha,2018,79
+Melgaço,2018,22
+Monção,2018,62
+Paredes de Coura,2018,12
+Ponte da Barca,2018,30
+Ponte de Lima,2018,101
+Valença,2018,24
+Viana do Castelo,2018,477
+Vila Nova de Cerveira,2018,27
+Amares,2018,52
+Barcelos,2018,294
+Braga,2018,1427
+Esposende,2018,132
+Terras de Bouro,2018,8
+Vila Verde,2018,79
+Cabeceiras de Basto,2018,36
+Fafe,2018,160
+Guimarães,2018,593
+Mondim de Basto,2018,9
+Póvoa de Lanhoso,2018,38
+Vieira do Minho,2018,14
+Vila Nova de Famalicão,2018,428
+Vizela,2018,57
+Arouca,2018,29
+Espinho,2018,207
+Gondomar,2018,684
+Maia,2018,904
+Matosinhos,2018,1583
+Oliveira de Azeméis,2018,151
+Paredes,2018,163
+Porto,2018,4886
+Póvoa de Varzim,2018,331
+Santa Maria da Feira,2018,394
+Santo Tirso,2018,253
+São João da Madeira,2018,89
+Trofa,2018,126
+Vale de Cambra,2018,77
+Valongo,2018,324
+Vila do Conde,2018,350
+Vila Nova de Gaia,2018,1707
+Boticas,2018,7
+Chaves,2018,204
+Montalegre,2018,12
+Ribeira de Pena,2018,7
+Valpaços,2018,33
+Vila Pouca de Aguiar,2018,29
+Amarante,2018,135
+Baião,2018,20
+Castelo de Paiva,2018,21
+Celorico de Basto,2018,26
+Cinfães,2018,20
+Felgueiras,2018,113
+Lousada,2018,52
+Marco de Canaveses,2018,73
+Paços de Ferreira,2018,115
+Penafiel,2018,161
+Resende,2018,16
+Alijó,2018,10
+Armamar,2018,5
+Carrazeda de Ansiães,2018,6
+Freixo de Espada à Cinta,2018,4
+Lamego,2018,93
+Mesão Frio,2018,9
+Moimenta da Beira,2018,18
+Murça,2018,9
+Penedono,2018,2
+Peso da Régua,2018,39
+Sabrosa,2018,6
+Santa Marta de Penaguião,2018,7
+São João da Pesqueira,2018,11
+Sernancelhe,2018,8
+Tabuaço,2018,4
+Tarouca,2018,14
+Torre de Moncorvo,2018,12
+Vila Nova de Foz Côa,2018,13
+Vila Real,2018,333
+Alfândega da Fé,2018,9
+Bragança,2018,171
+Macedo de Cavaleiros,2018,34
+Miranda do Douro,2018,12
+Mirandela,2018,88
+Mogadouro,2018,17
+Vila Flor,2018,8
+Vimioso,2018,7
+Vinhais,2018,9
+Alcobaça,2018,74
+Alenquer,2018,68
+Arruda dos Vinhos,2018,31
+Bombarral,2018,19
+Cadaval,2018,10
+Caldas da Rainha,2018,199
+Lourinhã,2018,44
+Nazaré,2018,22
+Óbidos,2018,12
+Peniche,2018,42
+Sobral de Monte Agraço,2018,20
+Torres Vedras,2018,211
+Águeda,2018,116
+Albergaria-a-Velha,2018,66
+Anadia,2018,87
+Aveiro,2018,474
+Estarreja,2018,56
+Ílhavo,2018,113
+Murtosa,2018,17
+Oliveira do Bairro,2018,59
+Ovar,2018,189
+Sever do Vouga,2018,21
+Vagos,2018,51
+Arganil,2018,11
+Cantanhede,2018,107
+Coimbra,2018,4470
+Condeixa-a-Nova,2018,98
+Figueira da Foz,2018,346
+Góis,2018,2
+Lousã,2018,29
+Mealhada,2018,61
+Mira,2018,40
+Miranda do Corvo,2018,28
+Montemor-o-Velho,2018,58
+Mortágua,2018,24
+Oliveira do Hospital,2018,33
+Pampilhosa da Serra,2018,1
+Penacova,2018,18
+Penela,2018,11
+Soure,2018,30
+Tábua,2018,18
+Vila Nova de Poiares,2018,6
+Alvaiázere,2018,10
+Ansião,2018,18
+Batalha,2018,23
+Castanheira de Pêra,2018,1
+Figueiró dos Vinhos,2018,12
+Leiria,2018,496
+Marinha Grande,2018,37
+Pedrógão Grande,2018,4
+Pombal,2018,114
+Porto de Mós,2018,28
+Aguiar da Beira,2018,7
+Carregal do Sal,2018,15
+Castro Daire,2018,19
+Mangualde,2018,36
+Nelas,2018,34
+Oliveira de Frades,2018,16
+Penalva do Castelo,2018,14
+Santa Comba Dão,2018,26
+São Pedro do Sul,2018,53
+Sátão,2018,23
+Tondela,2018,63
+Vila Nova de Paiva,2018,7
+Viseu,2018,739
+Vouzela,2018,14
+Castelo Branco,2018,246
+Idanha-a-Nova,2018,7
+Oleiros,2018,4
+Penamacor,2018,5
+Proença-a-Nova,2018,13
+Vila Velha de Ródão,2018,6
+Abrantes,2018,103
+Alcanena,2018,22
+Constância,2018,5
+Entroncamento,2018,73
+Ferreira do Zêzere,2018,5
+Mação,2018,5
+Ourém,2018,60
+Sardoal,2018,9
+Sertã,2018,18
+Tomar,2018,108
+Torres Novas,2018,122
+Vila de Rei,2018,3
+Vila Nova da Barquinha,2018,9
+Almeida,2018,15
+Belmonte,2018,6
+Celorico da Beira,2018,4
+Covilhã,2018,216
+Figueira de Castelo Rodrigo,2018,11
+Fornos de Algodres,2018,15
+Fundão,2018,53
+Gouveia,2018,26
+Guarda,2018,262
+Manteigas,2018,6
+Mêda,2018,7
+Pinhel,2018,19
+Sabugal,2018,14
+Seia,2018,63
+Trancoso,2018,24
+Alcochete,2018,57
+Almada,2018,772
+Amadora,2018,563
+Barreiro,2018,260
+Cascais,2018,1594
+Lisboa,2018,9573
+Loures,2018,682
+Mafra,2018,194
+Moita,2018,77
+Montijo,2018,148
+Odivelas,2018,474
+Oeiras,2018,1728
+Palmela,2018,200
+Seixal,2018,362
+Sesimbra,2018,100
+Setúbal,2018,583
+Sintra,2018,998
+Vila Franca de Xira,2018,242
+Alcácer do Sal,2018,11
+Grândola,2018,18
+Odemira,2018,25
+Santiago do Cacém,2018,85
+Sines,2018,41
+Aljustrel,2018,10
+Almodôvar,2018,13
+Alvito,2018,4
+Barrancos,2018,1
+Beja,2018,198
+Castro Verde,2018,6
+Cuba,2018,8
+Ferreira do Alentejo,2018,7
+Mértola,2018,6
+Moura,2018,28
+Ourique,2018,6
+Serpa,2018,19
+Vidigueira,2018,8
+Almeirim,2018,43
+Alpiarça,2018,7
+Azambuja,2018,21
+Benavente,2018,41
+Cartaxo,2018,51
+Chamusca,2018,10
+Coruche,2018,32
+Golegã,2018,7
+Rio Maior,2018,31
+Salvaterra de Magos,2018,32
+Santarém,2018,332
+Alter do Chão,2018,4
+Arronches,2018,5
+Avis,2018,5
+Campo Maior,2018,52
+Castelo de Vide,2018,9
+Crato,2018,3
+Elvas,2018,142
+Fronteira,2018,5
+Gavião,2018,2
+Marvão,2018,7
+Monforte,2018,5
+Nisa,2018,9
+Ponte de Sor,2018,26
+Portalegre,2018,114
+Sousel,2018,4
+Alandroal,2018,8
+Arraiolos,2018,8
+Borba,2018,12
+Estremoz,2018,30
+Évora,2018,461
+Montemor-o-Novo,2018,25
+Mora,2018,7
+Mourão,2018,2
+Portel,2018,7
+Redondo,2018,8
+Reguengos de Monsaraz,2018,12
+Vendas Novas,2018,17
+Viana do Alentejo,2018,6
+Vila Viçosa,2018,19
+Albufeira,2018,92
+Alcoutim,2018,8
+Aljezur,2018,13
+Castro Marim,2018,12
+Faro,2018,647
+Lagoa,2018,76
+Lagos,2018,100
+Loulé,2018,177
+Monchique,2018,5
+Olhão,2018,101
+Portimão,2018,351
+São Brás de Alportel,2018,43
+Silves,2018,54
+Tavira,2018,68
+Vila do Bispo,2018,4
+Vila Real de Santo António,2018,40
+Vila do Porto,2018,12
+Lagoa [R.A.A.],2018,24
+Nordeste,2018,6
+Ponta Delgada,2018,425
+Povoação,2018,11
+Ribeira Grande,2018,56
+Vila Franca do Campo,2018,13
+Angra do Heroísmo,2018,142
+Vila da Praia da Vitória,2018,52
+Santa Cruz da Graciosa,2018,4
+Calheta [R.A.A.],2018,2
+Velas,2018,13
+Lajes do Pico,2018,12
+Madalena,2018,3
+São Roque do Pico,2018,9
+Horta,2018,47
+Lajes das Flores,2018,0
+Santa Cruz das Flores,2018,4
+Corvo,2018,1
+Calheta [R.A.M.],2018,8
+Câmara de Lobos,2018,48
+Funchal,2018,792
+Machico,2018,39
+Ponta do Sol,2018,11
+Porto Moniz,2018,7
+Ribeira Brava,2018,25
+Santa Cruz,2018,130
+Santana,2018,5
+São Vicente,2018,6
+Porto Santo,2018,9
+Arcos de Valdevez,2019,44
+Caminha,2019,82
+Melgaço,2019,21
+Monção,2019,64
+Paredes de Coura,2019,13
+Ponte da Barca,2019,30
+Ponte de Lima,2019,108
+Valença,2019,24
+Viana do Castelo,2019,494
+Vila Nova de Cerveira,2019,28
+Amares,2019,52
+Barcelos,2019,330
+Braga,2019,1505
+Esposende,2019,146
+Terras de Bouro,2019,10
+Vila Verde,2019,86
+Cabeceiras de Basto,2019,39
+Fafe,2019,164
+Guimarães,2019,621
+Mondim de Basto,2019,9
+Póvoa de Lanhoso,2019,40
+Vieira do Minho,2019,15
+Vila Nova de Famalicão,2019,466
+Vizela,2019,64
+Arouca,2019,29
+Espinho,2019,218
+Gondomar,2019,708
+Maia,2019,926
+Matosinhos,2019,1638
+Oliveira de Azeméis,2019,166
+Paredes,2019,172
+Porto,2019,4986
+Póvoa de Varzim,2019,348
+Santa Maria da Feira,2019,415
+Santo Tirso,2019,265
+São João da Madeira,2019,90
+Trofa,2019,135
+Vale de Cambra,2019,78
+Valongo,2019,333
+Vila do Conde,2019,359
+Vila Nova de Gaia,2019,1765
+Boticas,2019,7
+Chaves,2019,211
+Montalegre,2019,13
+Ribeira de Pena,2019,6
+Valpaços,2019,35
+Vila Pouca de Aguiar,2019,27
+Amarante,2019,139
+Baião,2019,22
+Castelo de Paiva,2019,22
+Celorico de Basto,2019,30
+Cinfães,2019,20
+Felgueiras,2019,124
+Lousada,2019,58
+Marco de Canaveses,2019,80
+Paços de Ferreira,2019,122
+Penafiel,2019,168
+Resende,2019,18
+Alijó,2019,11
+Armamar,2019,6
+Carrazeda de Ansiães,2019,6
+Freixo de Espada à Cinta,2019,4
+Lamego,2019,98
+Mesão Frio,2019,11
+Moimenta da Beira,2019,17
+Murça,2019,9
+Penedono,2019,2
+Peso da Régua,2019,41
+Sabrosa,2019,7
+Santa Marta de Penaguião,2019,7
+São João da Pesqueira,2019,11
+Sernancelhe,2019,8
+Tabuaço,2019,5
+Tarouca,2019,16
+Torre de Moncorvo,2019,12
+Vila Nova de Foz Côa,2019,13
+Vila Real,2019,351
+Alfândega da Fé,2019,9
+Bragança,2019,179
+Macedo de Cavaleiros,2019,36
+Miranda do Douro,2019,13
+Mirandela,2019,89
+Mogadouro,2019,17
+Vila Flor,2019,8
+Vimioso,2019,7
+Vinhais,2019,10
+Alcobaça,2019,77
+Alenquer,2019,73
+Arruda dos Vinhos,2019,34
+Bombarral,2019,20
+Cadaval,2019,10
+Caldas da Rainha,2019,204
+Lourinhã,2019,46
+Nazaré,2019,23
+Óbidos,2019,13
+Peniche,2019,44
+Sobral de Monte Agraço,2019,20
+Torres Vedras,2019,215
+Águeda,2019,120
+Albergaria-a-Velha,2019,67
+Anadia,2019,93
+Aveiro,2019,491
+Estarreja,2019,56
+Ílhavo,2019,118
+Murtosa,2019,19
+Oliveira do Bairro,2019,60
+Ovar,2019,193
+Sever do Vouga,2019,21
+Vagos,2019,55
+Arganil,2019,11
+Cantanhede,2019,117
+Coimbra,2019,4628
+Condeixa-a-Nova,2019,102
+Figueira da Foz,2019,365
+Góis,2019,2
+Lousã,2019,30
+Mealhada,2019,64
+Mira,2019,43
+Miranda do Corvo,2019,30
+Montemor-o-Velho,2019,61
+Mortágua,2019,28
+Oliveira do Hospital,2019,33
+Pampilhosa da Serra,2019,2
+Penacova,2019,18
+Penela,2019,12
+Soure,2019,31
+Tábua,2019,17
+Vila Nova de Poiares,2019,5
+Alvaiázere,2019,10
+Ansião,2019,18
+Batalha,2019,26
+Castanheira de Pêra,2019,1
+Figueiró dos Vinhos,2019,12
+Leiria,2019,523
+Marinha Grande,2019,41
+Pedrógão Grande,2019,3
+Pombal,2019,118
+Porto de Mós,2019,29
+Aguiar da Beira,2019,8
+Carregal do Sal,2019,15
+Castro Daire,2019,20
+Mangualde,2019,36
+Nelas,2019,36
+Oliveira de Frades,2019,18
+Penalva do Castelo,2019,15
+Santa Comba Dão,2019,26
+São Pedro do Sul,2019,60
+Sátão,2019,25
+Tondela,2019,67
+Vila Nova de Paiva,2019,6
+Viseu,2019,776
+Vouzela,2019,14
+Castelo Branco,2019,249
+Idanha-a-Nova,2019,9
+Oleiros,2019,4
+Penamacor,2019,5
+Proença-a-Nova,2019,14
+Vila Velha de Ródão,2019,6
+Abrantes,2019,104
+Alcanena,2019,19
+Constância,2019,5
+Entroncamento,2019,75
+Ferreira do Zêzere,2019,6
+Mação,2019,5
+Ourém,2019,65
+Sardoal,2019,10
+Sertã,2019,18
+Tomar,2019,114
+Torres Novas,2019,125
+Vila de Rei,2019,3
+Vila Nova da Barquinha,2019,10
+Almeida,2019,15
+Belmonte,2019,8
+Celorico da Beira,2019,6
+Covilhã,2019,236
+Figueira de Castelo Rodrigo,2019,10
+Fornos de Algodres,2019,15
+Fundão,2019,61
+Gouveia,2019,27
+Guarda,2019,284
+Manteigas,2019,7
+Mêda,2019,8
+Pinhel,2019,19
+Sabugal,2019,13
+Seia,2019,68
+Trancoso,2019,23
+Alcochete,2019,61
+Almada,2019,791
+Amadora,2019,572
+Barreiro,2019,263
+Cascais,2019,1627
+Lisboa,2019,9710
+Loures,2019,690
+Mafra,2019,204
+Moita,2019,80
+Montijo,2019,153
+Odivelas,2019,490
+Oeiras,2019,1768
+Palmela,2019,211
+Seixal,2019,368
+Sesimbra,2019,104
+Setúbal,2019,598
+Sintra,2019,1028
+Vila Franca de Xira,2019,256
+Alcácer do Sal,2019,11
+Grândola,2019,21
+Odemira,2019,28
+Santiago do Cacém,2019,93
+Sines,2019,40
+Aljustrel,2019,11
+Almodôvar,2019,14
+Alvito,2019,5
+Barrancos,2019,1
+Beja,2019,197
+Castro Verde,2019,7
+Cuba,2019,8
+Ferreira do Alentejo,2019,7
+Mértola,2019,6
+Moura,2019,27
+Ourique,2019,6
+Serpa,2019,19
+Vidigueira,2019,9
+Almeirim,2019,45
+Alpiarça,2019,8
+Azambuja,2019,21
+Benavente,2019,43
+Cartaxo,2019,52
+Chamusca,2019,11
+Coruche,2019,33
+Golegã,2019,7
+Rio Maior,2019,34
+Salvaterra de Magos,2019,33
+Santarém,2019,344
+Alter do Chão,2019,5
+Arronches,2019,5
+Avis,2019,5
+Campo Maior,2019,54
+Castelo de Vide,2019,10
+Crato,2019,5
+Elvas,2019,148
+Fronteira,2019,5
+Gavião,2019,2
+Marvão,2019,7
+Monforte,2019,6
+Nisa,2019,8
+Ponte de Sor,2019,27
+Portalegre,2019,118
+Sousel,2019,4
+Alandroal,2019,8
+Arraiolos,2019,9
+Borba,2019,12
+Estremoz,2019,35
+Évora,2019,483
+Montemor-o-Novo,2019,26
+Mora,2019,6
+Mourão,2019,2
+Portel,2019,7
+Redondo,2019,7
+Reguengos de Monsaraz,2019,13
+Vendas Novas,2019,18
+Viana do Alentejo,2019,5
+Vila Viçosa,2019,18
+Albufeira,2019,94
+Alcoutim,2019,8
+Aljezur,2019,13
+Castro Marim,2019,12
+Faro,2019,670
+Lagoa,2019,79
+Lagos,2019,105
+Loulé,2019,181
+Monchique,2019,5
+Olhão,2019,103
+Portimão,2019,359
+São Brás de Alportel,2019,45
+Silves,2019,56
+Tavira,2019,69
+Vila do Bispo,2019,6
+Vila Real de Santo António,2019,41
+Vila do Porto,2019,13
+Lagoa [R.A.A.],2019,30
+Nordeste,2019,8
+Ponta Delgada,2019,444
+Povoação,2019,11
+Ribeira Grande,2019,56
+Vila Franca do Campo,2019,13
+Angra do Heroísmo,2019,147
+Vila da Praia da Vitória,2019,52
+Santa Cruz da Graciosa,2019,4
+Calheta [R.A.A.],2019,2
+Velas,2019,15
+Lajes do Pico,2019,12
+Madalena,2019,4
+São Roque do Pico,2019,8
+Horta,2019,48
+Lajes das Flores,2019,1
+Santa Cruz das Flores,2019,4
+Corvo,2019,1
+Calheta [R.A.M.],2019,9
+Câmara de Lobos,2019,50
+Funchal,2019,828
+Machico,2019,39
+Ponta do Sol,2019,11
+Porto Moniz,2019,7
+Ribeira Brava,2019,26
+Santa Cruz,2019,138
+Santana,2019,5
+São Vicente,2019,6
+Porto Santo,2019,10

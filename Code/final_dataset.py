@@ -28,6 +28,8 @@ Elderly_Dependency = pd.read_csv(r'Data\elderly_dependency_final.csv')
 Youth_Dependency = pd.read_csv(r'Data\youth_dependency_final.csv')
 Divorces = pd.read_csv(r'Data\divorces_final.csv')
 Female_Doctors = pd.read_csv(r'Data\female_doctors_final.csv')
+Total_Doctors = pd.read_csv(r'Data\total_doctors_final.csv')
+Mental_Health = pd.read_csv(r'Data\mental_health_final.csv')
 
 #Importing Helper Variables
 Population = pd.read_csv(r'Data\resident_population_final.csv')
@@ -177,3 +179,12 @@ Female_Doctors.rename(columns={"Value": "Female_Doctors"}, inplace=True)
 #Merging dfinal and Female_Doctors
 dfinal = dfinal.merge(Female_Doctors, on=["Municipality", "Year"], how = 'inner')
 del Female_Doctors
+
+#Changing Name of Columns (Total_Doctors and Mental_Health)
+Total_Doctors.rename(columns={"Value": "Total_Doctors"}, inplace=True)
+Mental_Health.rename(columns={"Value": "Mental_Health"}, inplace=True)
+
+#Merging dfinal and (Total_Doctors and Mental_Health)
+dfinal = dfinal.merge(Total_Doctors, on=["Municipality", "Year"], how = 'inner')
+dfinal = dfinal.merge(Mental_Health, on=["Municipality", "Year"], how = 'inner')
+del Total_Doctors, Mental_Health
