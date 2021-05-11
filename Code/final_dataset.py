@@ -30,6 +30,7 @@ Divorces = pd.read_csv(r'Data\divorces_final.csv')
 Female_Doctors = pd.read_csv(r'Data\female_doctors_final.csv')
 Total_Doctors = pd.read_csv(r'Data\total_doctors_final.csv')
 Mental_Health = pd.read_csv(r'Data\mental_health_final.csv')
+SS_Pensions = pd.read_csv(r'Data\ss_pensions_final.csv')
 
 #Importing Helper Variables
 Population = pd.read_csv(r'Data\resident_population_final.csv')
@@ -188,3 +189,13 @@ Mental_Health.rename(columns={"Value": "Mental_Health"}, inplace=True)
 dfinal = dfinal.merge(Total_Doctors, on=["Municipality", "Year"], how = 'inner')
 dfinal = dfinal.merge(Mental_Health, on=["Municipality", "Year"], how = 'inner')
 del Total_Doctors, Mental_Health
+
+#Standardizing Total_Doctors
+dfinal['Total_Doctors'] = dfinal['Total_Doctors']/dfinal['Population100']
+
+#Changing Name of Columns (SS_Pensions)
+SS_Pensions.rename(columns={"Value": "SS_Pensions"}, inplace=True)
+
+#Merging dfinal and Female_Doctors
+dfinal = dfinal.merge(SS_Pensions, on=["Municipality", "Year"], how = 'inner')
+del SS_Pensions
