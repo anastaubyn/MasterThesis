@@ -52,6 +52,9 @@ cols = cols[0:1] + cols[-2:-1] + cols[1:-2] + cols[-1:]
 data = data[cols]
 del cols
 
+#Copying 2018 to 2019
+data['2019'] = data['2018']
+
 #Turn Years into One Column
 data = data.melt(id_vars=["Municipality"], var_name="Year", value_name="Value")
 data['Year'] = data['Year'].apply(pd.to_numeric)

@@ -8,6 +8,7 @@ Appending Explanatory Variables
 """
 
 import pandas as pd
+from sklearn.neighbors import KNeighborsRegressor
 import os, inspect
 os.chdir(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))))
 
@@ -203,3 +204,94 @@ del SS_Pensions
 #Correcting Nulls for Female_Doctors and Mental_Health
 dfinal['Female_Doctors'] = dfinal['Female_Doctors'].fillna(0)
 dfinal['Mental_Health'] = dfinal['Mental_Health'].fillna(0)
+
+#Removing Azores and Madeira
+autonomous = ['Angra do Heroísmo', 'Calheta [R.A.A.]', 'Corvo', 'Horta', 'Lagoa [R.A.A.]',
+              'Lajes das Flores', 'Lajes do Pico', 'Madalena', 'Nordeste', 'Ponta Delgada',
+              'Povoação', 'Ribeira Grande', 'São Roque do Pico', 'Vila da Praia da Vitória',
+              'Santa Cruz da Graciosa', 'Santa Cruz das Flores', 'Velas', 'Vila do Porto',
+              'Vila Franca do Campo', 'Calheta [R.A.M.]', 'Câmara de Lobos', 'Funchal',
+              'Machico', 'Ponta do Sol', 'Porto Moniz', 'Porto Santo', 'Ribeira Brava',
+              'São Vicente', 'Santa Cruz', 'Santana']
+dfinal = dfinal[~dfinal.Municipality.isin(autonomous)]
+del autonomous
+
+#Correcting Missing Values for SS_Pensions
+dfinal2009 = dfinal[dfinal['Year']==2009]
+corr = dfinal2009.corr()
+del corr
+dfinal_to_reg = dfinal2009[['SS_Pensions','Elderly_Dependency','Youth_Dependency', 'Middle_Aged_Women','Men65']]
+reg_incomplete = dfinal_to_reg[dfinal_to_reg.SS_Pensions.isna()]
+reg_complete = dfinal_to_reg[~dfinal_to_reg.index.isin(reg_incomplete.index)]
+regressor = KNeighborsRegressor(7, weights ='distance', metric='euclidean')
+neigh = regressor.fit(reg_complete.loc[:,['Elderly_Dependency','Youth_Dependency', 'Middle_Aged_Women','Men65']],
+                      reg_complete.loc[:,['SS_Pensions']])
+imputed = neigh.predict(reg_incomplete.drop(columns = ['SS_Pensions']))
+imputed = imputed[0][0]
+dfinal['SS_Pensions'] = dfinal['SS_Pensions'].fillna(imputed)
+del dfinal_to_reg, neigh, imputed, reg_complete, reg_incomplete, dfinal2009, regressor
+
+#Correcting Missing Values for Marriages
+def impute_marriages(dfinal, year):
+    dfinal2009 = dfinal[dfinal['Year']==year]
+    dfinal_to_reg = dfinal2009[['Marriages','Elderly_Dependency','SS_Pensions', 'Middle_Aged_Women','Men65']]
+    reg_incomplete = dfinal_to_reg[dfinal_to_reg.Marriages.isna()]
+    reg_complete = dfinal_to_reg[~dfinal_to_reg.index.isin(reg_incomplete.index)]
+    regressor = KNeighborsRegressor(7, weights ='distance', metric='euclidean')
+    neigh = regressor.fit(reg_complete.loc[:,['Elderly_Dependency','SS_Pensions', 'Middle_Aged_Women','Men65']],
+                          reg_complete.loc[:,['Marriages']])
+    imputed = neigh.predict(reg_incomplete.drop(columns = ['Marriages']))
+    imputed = imputed[0][0]
+    dfinal2009['Marriages'] = dfinal2009['Marriages'].fillna(imputed)
+    dfinal_not2009 = dfinal[dfinal['Year']!=year]
+    dfinal = pd.concat([dfinal2009, dfinal_not2009])
+    return dfinal
+
+for year in range(2009, 2019):
+    dfinal = impute_marriages(dfinal, year)
+del year
+    
+#Correcting Missing Values for Divorces
+def impute_divorces(dfinal, year):
+    dfinal2009 = dfinal[dfinal['Year']==year]
+    dfinal_to_reg = dfinal2009[['Divorces','Monthly_Gain','Fertility', 'Wage_Gap','SS_Pensions']]
+    reg_incomplete = dfinal_to_reg[dfinal_to_reg.Divorces.isna()]
+    reg_complete = dfinal_to_reg[~dfinal_to_reg.index.isin(reg_incomplete.index)]
+    regressor = KNeighborsRegressor(7, weights ='distance', metric='euclidean')
+    neigh = regressor.fit(reg_complete.loc[:,['Monthly_Gain','Fertility', 'Wage_Gap','SS_Pensions']],
+                          reg_complete.loc[:,['Divorces']])
+    imputed = neigh.predict(reg_incomplete.drop(columns = ['Divorces']))
+    imputed = imputed[0][0]
+    dfinal2009['Divorces'] = dfinal2009['Divorces'].fillna(imputed)
+    dfinal_not2009 = dfinal[dfinal['Year']!=year]
+    dfinal = pd.concat([dfinal2009, dfinal_not2009])
+    return dfinal
+
+for year in range(2009, 2013):
+    dfinal = impute_divorces(dfinal, year)
+del year
+for year in range(2014, 2019):
+    dfinal = impute_divorces(dfinal, year)
+del year
+
+def impute_divorces2(dfinal, year):
+    dfinal2013 = dfinal[dfinal['Year']==year]
+    reg_incomplete = dfinal2013[dfinal2013.Divorces.isna()]
+    reg_complete = dfinal2013[~dfinal2013.index.isin(reg_incomplete.index)]
+    regressor = KNeighborsRegressor(7, weights ='distance', metric='euclidean')
+    neigh = regressor.fit(reg_complete.loc[:,['Monthly_Gain','Fertility', 'Wage_Gap','SS_Pensions']],
+                          reg_complete.loc[:,['Divorces']])
+    imputed = neigh.predict(reg_incomplete[['Monthly_Gain','Fertility', 'Wage_Gap','SS_Pensions']])
+    temp_df = pd.DataFrame(imputed.reshape(-1,1), columns = ['Divorces'])
+    reg_incomplete = reg_incomplete.drop(columns=['Divorces'])
+    reg_incomplete = reg_incomplete.reset_index(drop=True)
+    cols = reg_incomplete.columns.tolist()
+    reg_incomplete = pd.concat([reg_incomplete, temp_df], axis=1, ignore_index=True, verify_integrity=False)
+    reg_incomplete.columns = cols + ['Divorces']
+    dfinal2013 = pd.concat([reg_incomplete, reg_complete])
+    dfinal_not2013 = dfinal[dfinal['Year']!=year]
+    dfinal = pd.concat([dfinal2013, dfinal_not2013])
+    return dfinal
+
+dfinal = impute_divorces2(dfinal, 2013)
+dfinal = impute_divorces2(dfinal, 2019)
