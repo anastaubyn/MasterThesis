@@ -199,3 +199,7 @@ SS_Pensions.rename(columns={"Value": "SS_Pensions"}, inplace=True)
 #Merging dfinal and Female_Doctors
 dfinal = dfinal.merge(SS_Pensions, on=["Municipality", "Year"], how = 'inner')
 del SS_Pensions
+
+#Correcting Nulls for Female_Doctors and Mental_Health
+dfinal['Female_Doctors'] = dfinal['Female_Doctors'].fillna(0)
+dfinal['Mental_Health'] = dfinal['Mental_Health'].fillna(0)
