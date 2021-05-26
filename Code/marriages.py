@@ -57,6 +57,9 @@ cols = cols[0:1] + cols[-1:] + cols[1:]
 data = data[cols]
 del cols
 
+#Undo effects of series break (2010) by removing values for 2009
+data['2009'] = data['2010']
+
 #Turn Years into One Column
 data = data.melt(id_vars=["Municipality"], var_name="Year", value_name="Value")
 data['Year'] = data['Year'].apply(pd.to_numeric)
@@ -104,3 +107,5 @@ ax.set_xlabel('Year')
 ax.set_ylabel('Number by 100 Inhabitants')
 ax.legend(ncol=1)
 plt.savefig(r'Images\marriages_DVASA')
+
+

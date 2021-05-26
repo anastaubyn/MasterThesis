@@ -4,7 +4,7 @@ Created on Fri May  7 14:28:29 2021
 
 @author: anacs
 
-Explanatory Variable - Youth Dependency Index
+Explanatory Variable - Divorces
 """
 
 import pandas as pd
@@ -34,6 +34,9 @@ data.drop(data.columns[0], axis=1, inplace=True)
 
 #Renaming Columns
 data.rename(columns={data.columns[2]: "2010", data.columns[3]: "2011"}, inplace=True)
+
+#Removing effects of break (2010) by copying 2010 to 2009
+data['2009'] = data['2010']
 
 #Remove Unknown Characters
 for i in range(2009, 2020):
