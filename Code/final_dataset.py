@@ -8,6 +8,9 @@ Appending Explanatory Variables
 """
 
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sb
 from sklearn.neighbors import KNeighborsRegressor
 import os, inspect
 os.chdir(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))))
@@ -32,6 +35,9 @@ Female_Doctors = pd.read_csv(r'Data\female_doctors_final.csv')
 Total_Doctors = pd.read_csv(r'Data\total_doctors_final.csv')
 Mental_Health = pd.read_csv(r'Data\mental_health_final.csv')
 SS_Pensions = pd.read_csv(r'Data\ss_pensions_final.csv')
+Education = pd.read_csv(r'Data\education_total_final.csv')
+Education_Men = pd.read_csv(r'Data\education_men_final.csv')
+Education_Women = pd.read_csv(r'Data\education_women_final.csv')
 
 #Importing Helper Variables
 Population = pd.read_csv(r'Data\resident_population_final.csv')
@@ -197,7 +203,7 @@ dfinal['Total_Doctors'] = dfinal['Total_Doctors']/dfinal['Population100']
 #Changing Name of Columns (SS_Pensions)
 SS_Pensions.rename(columns={"Value": "SS_Pensions"}, inplace=True)
 
-#Merging dfinal and Female_Doctors
+#Merging dfinal and SS_Pensions
 dfinal = dfinal.merge(SS_Pensions, on=["Municipality", "Year"], how = 'inner')
 del SS_Pensions
 
@@ -215,6 +221,45 @@ autonomous = ['Angra do Heroísmo', 'Calheta [R.A.A.]', 'Corvo', 'Horta', 'Lagoa
               'São Vicente', 'Santa Cruz', 'Santana']
 dfinal = dfinal[~dfinal.Municipality.isin(autonomous)]
 del autonomous
+
+#Checking if Municipality Names are the Same (Education and dfinal)
+mun_dvasa = dfinal.Municipality.unique().tolist()
+mun_education = Education.Municipality.unique().tolist()
+mun_dvasa = sorted(mun_dvasa)
+mun_education = sorted(mun_education)
+dif = list(set(mun_dvasa).symmetric_difference(mun_education))
+Education['Municipality'] = Education['Municipality'].str.replace("Meda", "Mêda")
+Education_Men['Municipality'] = Education_Men['Municipality'].str.replace("Meda", "Mêda")
+Education_Women['Municipality'] = Education_Women['Municipality'].str.replace("Meda", "Mêda")
+del mun_dvasa, mun_education, dif
+
+#Merging dfinal and Education
+dfinal = dfinal.merge(Education, on=["Municipality", "Year"], how = 'inner')
+Education_Men.rename(columns={"GER": "GER_Men"}, inplace=True)
+dfinal = dfinal.merge(Education_Men, on=["Municipality", "Year"], how = 'inner')
+Education_Women.rename(columns={"GER": "GER_Women"}, inplace=True)
+dfinal = dfinal.merge(Education_Women, on=["Municipality", "Year"], how = 'inner')
+del Education, Education_Men, Education_Women
+
+#Calculating Correlations
+correlacoes = dfinal.drop(columns=['Year']).corr(method='pearson')
+correlacoes[np.abs(correlacoes)<0.05] = 0
+correlacoes = round(correlacoes,1)
+
+f, ax = plt.subplots(figsize=(9, 9))
+ax.set_title('Pearson Correlation Among Variables', fontsize=16)
+mask = np.zeros_like(correlacoes, dtype=np.bool)
+mask[np.triu_indices_from(mask)] = True
+
+mask_annot = np.absolute(correlacoes.values)>=0.4
+annot1 = np.where(mask_annot, correlacoes.values, np.full((22,22),""))
+cmap = sb.diverging_palette(120, 40, as_cmap=True)
+sb.heatmap(correlacoes, mask=mask, cmap=cmap, center=0, square=True, ax=ax, linewidths=.5, annot=annot1, fmt="s", vmin=-1, vmax=1, cbar_kws=dict(ticks=[-1,0,1]))
+sb.set(font_scale=0.7)
+sb.set_style('white')
+bottom, top = ax.get_ylim()
+ax.set_ylim(bottom + 0.5, top - 0.5)
+plt.savefig(r'Images\correlations')
 
 #Correcting Missing Values for SS_Pensions
 dfinal2009 = dfinal[dfinal['Year']==2009]
@@ -295,3 +340,6 @@ def impute_divorces2(dfinal, year):
 
 dfinal = impute_divorces2(dfinal, 2013)
 dfinal = impute_divorces2(dfinal, 2019)
+
+#Imputing Missing Values for Education
+null_data = dfinal[dfinal.isnull().any(axis=1)]

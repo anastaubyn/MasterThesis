@@ -73,6 +73,6 @@ data_men['GER'] = data_men['GER'].str.replace(",", ".")
 data_men['GER'] = data_men['GER'].apply(pd.to_numeric)
 
 #Export as CSV
-data.to_csv(r'Data\education_total.csv', index=False)
-data_women.to_csv(r'Data\education_women.csv', index=False)
-data_men.to_csv(r'Data\education_men.csv', index=False)
+data.to_csv(r'Data\education_total_final.csv', index=False)
+data_women.to_csv(r'Data\education_women_final.csv', index=False)
+data_men.to_csv(r'Data\education_men_final.csv', index=False)
