@@ -242,24 +242,55 @@ dfinal = dfinal.merge(Education_Women, on=["Municipality", "Year"], how = 'inner
 del Education, Education_Men, Education_Women
 
 #Calculating Correlations
-correlacoes = dfinal.drop(columns=['Year']).corr(method='pearson')
-correlacoes[np.abs(correlacoes)<0.05] = 0
-correlacoes = round(correlacoes,1)
+for year in range(2009, 2020):
+    data = dfinal.loc[dfinal['Year'] == year].drop(columns=['Year','Population', 'Population100'])
+    corr = data.corr(method = 'pearson')
+    corr = round(corr,1)
+    f, ax = plt.subplots(figsize=(9, 9))
+    ax.set_title('Contemporaneous Pearson Correlation for {}'.format(year), fontsize=16)
+    mask = np.zeros_like(corr, dtype=np.bool)
+    mask[np.triu_indices_from(mask)] = True
+    mask_annot = np.absolute(corr.values)>=0.4
+    annot1 = np.where(mask_annot, corr.values, np.full((20,20),""))
+    cmap = sb.diverging_palette(120, 40, as_cmap=True)
+    sb.heatmap(corr, mask=mask, cmap=cmap, center=0, square=True, ax=ax, linewidths=.5, annot=annot1, fmt="s", vmin=-1, vmax=1, cbar_kws=dict(ticks=[-1,0,1]))
+    sb.set(font_scale=0.7)
+    sb.set_style('white')
+    bottom, top = ax.get_ylim()
+    ax.set_ylim(bottom + 0.5, top - 0.5)
+    plt.gcf().subplots_adjust(left=0.25)
+    plt.savefig(r'Images\correlations{}'.format(year))
+    
+del f, ax, bottom, corr, annot1, mask, mask_annot, top, year
+
+    #get matrix with average correlations
+data = dfinal.loc[dfinal['Year'] == 2009].drop(columns=['Year','Population', 'Population100'])
+corr = data.corr(method = 'pearson')
+for year in range(2010, 2020):
+    data = dfinal.loc[dfinal['Year'] == year].drop(columns=['Year','Population', 'Population100'])
+    corr2 = data.corr(method = 'pearson')
+    corr = pd.concat((corr, corr2))
+by_row_index = corr.groupby(corr.index)
+corr = by_row_index.mean()
+corr = round(corr,1)
+corr = corr.reindex(list(corr.columns))
+del corr2, data, year, by_row_index
 
 f, ax = plt.subplots(figsize=(9, 9))
-ax.set_title('Pearson Correlation Among Variables', fontsize=16)
-mask = np.zeros_like(correlacoes, dtype=np.bool)
+ax.set_title('Average Contemporaneous Pearson Correlation', fontsize=16)
+mask = np.zeros_like(corr, dtype=np.bool)
 mask[np.triu_indices_from(mask)] = True
-
-mask_annot = np.absolute(correlacoes.values)>=0.4
-annot1 = np.where(mask_annot, correlacoes.values, np.full((22,22),""))
+mask_annot = np.absolute(corr.values)>=0.4
+annot1 = np.where(mask_annot, corr.values, np.full((20,20),""))
 cmap = sb.diverging_palette(120, 40, as_cmap=True)
-sb.heatmap(correlacoes, mask=mask, cmap=cmap, center=0, square=True, ax=ax, linewidths=.5, annot=annot1, fmt="s", vmin=-1, vmax=1, cbar_kws=dict(ticks=[-1,0,1]))
+sb.heatmap(corr, mask=mask, cmap=cmap, center=0, square=True, ax=ax, linewidths=.5, annot=annot1, fmt="s", vmin=-1, vmax=1, cbar_kws=dict(ticks=[-1,0,1]))
 sb.set(font_scale=0.7)
 sb.set_style('white')
 bottom, top = ax.get_ylim()
 ax.set_ylim(bottom + 0.5, top - 0.5)
+plt.gcf().subplots_adjust(left=0.25)
 plt.savefig(r'Images\correlations')
+del f, ax, bottom, corr, annot1, mask, mask_annot, top
 
 #Correcting Missing Values for SS_Pensions
 dfinal2009 = dfinal[dfinal['Year']==2009]
