@@ -290,12 +290,10 @@ bottom, top = ax.get_ylim()
 ax.set_ylim(bottom + 0.5, top - 0.5)
 plt.gcf().subplots_adjust(left=0.25)
 plt.savefig(r'Images\correlations')
-del f, ax, bottom, corr, annot1, mask, mask_annot, top
+del f, ax, bottom, annot1, mask, mask_annot, top
 
 #Correcting Missing Values for SS_Pensions
 dfinal2009 = dfinal[dfinal['Year']==2009]
-corr = dfinal2009.corr()
-del corr
 dfinal_to_reg = dfinal2009[['SS_Pensions','Elderly_Dependency','Youth_Dependency', 'Middle_Aged_Women','Men65']]
 reg_incomplete = dfinal_to_reg[dfinal_to_reg.SS_Pensions.isna()]
 reg_complete = dfinal_to_reg[~dfinal_to_reg.index.isin(reg_incomplete.index)]
@@ -374,3 +372,60 @@ dfinal = impute_divorces2(dfinal, 2019)
 
 #Imputing Missing Values for Education
 null_data = dfinal[dfinal.isnull().any(axis=1)]
+def impute_GER(dfinal, year):
+    dfinal2009 = dfinal[dfinal['Year']==year]
+    dfinal_to_reg = dfinal2009[['GER','Total_Doctors','Monthly_Gain', 'Fertility']]
+    reg_incomplete = dfinal_to_reg[dfinal_to_reg.GER.isna()]
+    reg_complete = dfinal_to_reg[~dfinal_to_reg.index.isin(reg_incomplete.index)]
+    regressor = KNeighborsRegressor(7, weights ='distance', metric='euclidean')
+    neigh = regressor.fit(reg_complete.loc[:,['Total_Doctors','Monthly_Gain', 'Fertility']],
+                          reg_complete.loc[:,['GER']])
+    imputed = neigh.predict(reg_incomplete.drop(columns = ['GER']))
+    imputed = imputed[0][0]
+    dfinal2009['GER'] = dfinal2009['GER'].fillna(imputed)
+    dfinal_not2009 = dfinal[dfinal['Year']!=year]
+    dfinal = pd.concat([dfinal2009, dfinal_not2009])
+    return dfinal
+
+for year in range(2009, 2020):
+    dfinal = impute_GER(dfinal, year)
+del year
+
+null_data = dfinal[dfinal.isnull().any(axis=1)]
+def impute_GERMen(dfinal, year):
+    dfinal2009 = dfinal[dfinal['Year']==year]
+    dfinal_to_reg = dfinal2009[['GER_Men','Total_Doctors','Monthly_Gain', 'Fertility']]
+    reg_incomplete = dfinal_to_reg[dfinal_to_reg.GER_Men.isna()]
+    reg_complete = dfinal_to_reg[~dfinal_to_reg.index.isin(reg_incomplete.index)]
+    regressor = KNeighborsRegressor(7, weights ='distance', metric='euclidean')
+    neigh = regressor.fit(reg_complete.loc[:,['Total_Doctors','Monthly_Gain', 'Fertility']],
+                          reg_complete.loc[:,['GER_Men']])
+    imputed = neigh.predict(reg_incomplete.drop(columns = ['GER_Men']))
+    imputed = imputed[0][0]
+    dfinal2009['GER_Men'] = dfinal2009['GER_Men'].fillna(imputed)
+    dfinal_not2009 = dfinal[dfinal['Year']!=year]
+    dfinal = pd.concat([dfinal2009, dfinal_not2009])
+    return dfinal
+
+for year in range(2009, 2020):
+    dfinal = impute_GERMen(dfinal, year)
+del year
+
+def impute_GERWomen(dfinal, year):
+    dfinal2009 = dfinal[dfinal['Year']==year]
+    dfinal_to_reg = dfinal2009[['GER_Women','Total_Doctors','Monthly_Gain', 'Fertility']]
+    reg_incomplete = dfinal_to_reg[dfinal_to_reg.GER_Women.isna()]
+    reg_complete = dfinal_to_reg[~dfinal_to_reg.index.isin(reg_incomplete.index)]
+    regressor = KNeighborsRegressor(7, weights ='distance', metric='euclidean')
+    neigh = regressor.fit(reg_complete.loc[:,['Total_Doctors','Monthly_Gain', 'Fertility']],
+                          reg_complete.loc[:,['GER_Women']])
+    imputed = neigh.predict(reg_incomplete.drop(columns = ['GER_Women']))
+    imputed = imputed[0][0]
+    dfinal2009['GER_Women'] = dfinal2009['GER_Women'].fillna(imputed)
+    dfinal_not2009 = dfinal[dfinal['Year']!=year]
+    dfinal = pd.concat([dfinal2009, dfinal_not2009])
+    return dfinal
+
+for year in range(2009, 2020):
+    dfinal = impute_GERWomen(dfinal, year)
+del year
