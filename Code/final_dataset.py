@@ -428,4 +428,7 @@ def impute_GERWomen(dfinal, year):
 
 for year in range(2009, 2020):
     dfinal = impute_GERWomen(dfinal, year)
-del year
+del year, null_data
+
+#Descriptive Statistics
+descriptive = dfinal.drop(columns=['Year', 'Population', 'Population100']).describe().transpose()
