@@ -431,7 +431,16 @@ for year in range(2009, 2020):
 del year, null_data
 
 #Descriptive Statistics
-descriptive = dfinal.drop(columns=['Year', 'Population', 'Population100']).describe().transpose()
+overall_descriptive = dfinal.drop(columns=['Year', 'Population', 'Population100']).describe().transpose()
+bymun_descriptive = dfinal.drop(columns=['Year', 'Population', 'Population100']).groupby(['Municipality']).describe()
+columns_used = list(bymun_descriptive.columns.get_level_values(level=1) == 'mean')
+column_names = list(bymun_descriptive.columns)
+bymun_means = bymun_descriptive[[v for i,v in enumerate(column_names) if columns_used[i] == True]]
+between_std = bymun_means.std(axis = 0, skipna = True)
+columns_used = list(bymun_descriptive.columns.get_level_values(level=1) == 'std')
+bymun_std = bymun_descriptive[[v for i,v in enumerate(column_names) if columns_used[i] == True]]
+within_std = bymun_std.mean(axis = 0, skipna = True)
+del columns_used, column_names, bymun_descriptive, bymun_means, bymun_std
 
 #Plotting DVASA (Histogram)
 plt.figure(figsize=(14,6))
