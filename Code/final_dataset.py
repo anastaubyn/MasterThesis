@@ -678,3 +678,4 @@ ax20.set(xlabel=None)
 plt.savefig(r'Images\boxplots')
 del ax1, ax2, ax3, ax4, ax5, ax6, ax7, ax8, ax9, ax10, ax11, ax12, ax13, ax14, ax15, ax16, ax17, ax18, ax19, ax20, fig, gs
 
+dfinal.to_csv(r'Data\dfinal.csv', index=False)
