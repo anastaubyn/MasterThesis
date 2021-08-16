@@ -10,6 +10,8 @@ Theoretical Plots
 import random
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
+import seaborn as sns
 
 # Residuals (Modelling Issues)
 y = []
@@ -58,3 +60,41 @@ axs[0,2].set_title('Residual Plot With Wrong Functional Form')
 axs[0,2].set_xlabel('X')
 axs[0,2].set_ylabel('Residuals')
 plt.savefig(r'Images\Theo_ResidualPlots.png')
+
+del i, n, axs, fig, poli_x, poli_y, x, y, x_hetero, x_poli, y_hetero, y_poli
+
+# Probability Density Functions
+data = pd.read_csv(r'Data\dfinal.csv')
+plt.figure(figsize=(14,6))
+ax = sns.distplot(data['DVASA'], hist=False, kde=True, bins=int(180/5), color = 'darkseagreen', kde_kws={'linewidth': 2})
+plt.plot([data["DVASA"].mean(), data["DVASA"].mean()], [0, 5.254], ls='--', color='dimgray')
+ax.set_title('Probability Density Function for DVASA')
+sns.despine()
+plt.savefig(r'Images\DVASA_DensityFunction.png')
+
+new_data = data.loc[data['GER'] == data['GER'].mode()[1]]
+plt.figure(figsize=(14,6))
+ax = sns.distplot(new_data['DVASA'], hist=False, kde=True, bins=int(180/5), color = 'darkseagreen', kde_kws={'linewidth': 2})
+plt.plot([new_data["DVASA"].mean(), new_data["DVASA"].mean()], [0, 4.38], ls='--', color='dimgray')
+ax.set_title('Conditional Probability Density Function for DVASA (GER = 70,16)')
+sns.despine()
+plt.savefig(r'Images\DVASA_ConditionalDensityFunction.png')
+
+z = np.polyfit(data['GER'], data['DVASA'], 1)
+p = np.poly1d(z)
+fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(14, 6), squeeze=False)
+fig.suptitle('Graphical Relation Between GER and DVASA', fontsize=20, y=0.97)
+axs[0,0].scatter(data['GER'], data['DVASA'], c='darkseagreen', s=3)
+axs[0,0].spines['right'].set_visible(False)
+axs[0,0].spines['top'].set_visible(False)
+axs[0,0].set_title('Dispersion Plot for GER and DVASA')
+axs[0,0].set_xlabel('GER')
+axs[0,0].set_ylabel('DVASA')
+axs[0,1].scatter(data['GER'], data['DVASA'], c='darkseagreen', s=3)
+axs[0,1].plot(data['GER'],p(data['GER']),linestyle='dashed', linewidth=1, color='dimgray')
+axs[0,1].spines['right'].set_visible(False)
+axs[0,1].spines['top'].set_visible(False)
+axs[0,1].set_title('Dispersion Plot for GER and DVASA')
+axs[0,1].set_xlabel('GER')
+axs[0,1].set_ylabel('DVASA')
+plt.savefig(r'Images\dispersion_DVASAvsGER.png')
