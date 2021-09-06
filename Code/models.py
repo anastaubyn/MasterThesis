@@ -312,3 +312,11 @@ pooled_res = mod.fit(cov_type="clustered", cluster_entity=True)
 print(pooled_res)
 resids = pooled_res.resids
 fitted = pooled_res.fitted_values
+
+#Heteroskedasticity in Model4 Tests
+pooled_OLS_dataset = pd.concat([data, resids], axis=1)
+exog = sm.tools.tools.add_constant(data[exog_vars]).fillna(0)
+breusch_pagan_test_results = het_breuschpagan(pooled_OLS_dataset['residual'], exog)
+labels = ['LM-Stat', 'LM p-val', 'F-Stat', 'F p-val'] 
+print(dict(zip(labels, breusch_pagan_test_results)))
+del labels
