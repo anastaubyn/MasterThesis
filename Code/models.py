@@ -7,6 +7,7 @@ Created on Wed Jul 28 12:08:35 2021
 Models
 """
 from linearmodels import PooledOLS
+from linearmodels import PanelOLS
 import statsmodels.api as sm
 import pandas as pd
 import numpy as np
@@ -320,3 +321,24 @@ breusch_pagan_test_results = het_breuschpagan(pooled_OLS_dataset['residual'], ex
 labels = ['LM-Stat', 'LM p-val', 'F-Stat', 'F p-val'] 
 print(dict(zip(labels, breusch_pagan_test_results)))
 del labels
+
+##############################################################################
+###                                   Model 5                              ###
+##############################################################################
+
+data = pd.read_csv(r'Data\dfinal.csv')
+dummies = pd.get_dummies(data['Year'])
+del dummies[list(dummies.columns)[0]]
+for col in list(dummies.columns):
+    dummies[col] = dummies[col].astype(int)
+del col
+data_dummies = pd.concat([data, dummies], axis=1)
+data_dummies.set_index(['Municipality', 'Year'], inplace=True)
+data_dummies.drop(columns=['Population', 'Population100'], inplace=True)
+
+exog_vars = list(data_dummies.columns)
+exog_vars.pop(0)
+exog = sm.add_constant(data_dummies[exog_vars])
+mod = PooledOLS(data_dummies.DVASA, exog)
+fe_res = mod.fit(cov_type="clustered", cluster_entity=True)
+print(fe_res)
