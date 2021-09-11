@@ -7,7 +7,6 @@ Created on Wed Jul 28 12:08:35 2021
 Models
 """
 from linearmodels import PooledOLS
-from linearmodels import PanelOLS
 import statsmodels.api as sm
 import pandas as pd
 import numpy as np
@@ -342,3 +341,77 @@ exog = sm.add_constant(data_dummies[exog_vars])
 mod = PooledOLS(data_dummies.DVASA, exog)
 fe_res = mod.fit(cov_type="clustered", cluster_entity=True)
 print(fe_res)
+resids = fe_res.resids
+
+#Heteroskedasticity in Model5 Tests
+pooled_OLS_dataset = pd.concat([data_dummies, resids], axis=1)
+exog = sm.tools.tools.add_constant(data_dummies[exog_vars]).fillna(0)
+breusch_pagan_test_results = het_breuschpagan(pooled_OLS_dataset['residual'], exog)
+labels = ['LM-Stat', 'LM p-val', 'F-Stat', 'F p-val'] 
+print(dict(zip(labels, breusch_pagan_test_results)))
+del labels
+
+# Autocorrelation of residuals test
+durbin_watson_test_results = durbin_watson(pooled_OLS_dataset['residual']) 
+print(durbin_watson_test_results)
+
+del breusch_pagan_test_results, dummies, durbin_watson_test_results, exog, exog_vars, mod, resids, pooled_OLS_dataset
+del fe_res
+
+##############################################################################
+###                                   Model 6                              ###
+##############################################################################
+
+exog_vars = list(data_dummies.columns)
+exog_vars.pop(0)
+exog_vars.pop(2)
+exog_vars.pop(20)
+exog_vars.pop(12)
+exog_vars.pop(12)
+exog_vars.pop(9)
+exog = sm.add_constant(data_dummies[exog_vars])
+mod = PooledOLS(data_dummies.DVASA, exog)
+fe_res = mod.fit(cov_type="clustered", cluster_entity=True)
+print(fe_res)
+resids = fe_res.resids
+
+#Heteroskedasticity in Model6 Tests
+pooled_OLS_dataset = pd.concat([data_dummies, resids], axis=1)
+exog = sm.tools.tools.add_constant(data_dummies[exog_vars])
+breusch_pagan_test_results = het_breuschpagan(pooled_OLS_dataset['residual'], exog)
+labels = ['LM-Stat', 'LM p-val', 'F-Stat', 'F p-val'] 
+print(dict(zip(labels, breusch_pagan_test_results)))
+del labels
+
+# Autocorrelation of residuals test
+durbin_watson_test_results = durbin_watson(pooled_OLS_dataset['residual']) 
+print(durbin_watson_test_results)
+
+del exog, mod, fe_res, breusch_pagan_test_results, pooled_OLS_dataset, resids, durbin_watson_test_results
+
+##############################################################################
+###                                   Model 7                              ###
+##############################################################################
+
+exog_vars.pop(8)
+exog_vars.pop(8)
+exog_vars.pop(3)
+exog_vars.pop(1)
+exog_vars.pop(13)
+exog = sm.add_constant(data_dummies[exog_vars])
+mod = PooledOLS(data_dummies.DVASA, exog)
+fe_res = mod.fit(cov_type="clustered", cluster_entity=True)
+print(fe_res)
+
+#Heteroskedasticity in Model7 Tests
+resids = fe_res.resids
+pooled_OLS_dataset = pd.concat([data_dummies, resids], axis=1)
+exog = sm.tools.tools.add_constant(data_dummies[exog_vars])
+breusch_pagan_test_results = het_breuschpagan(pooled_OLS_dataset['residual'], exog)
+labels = ['LM-Stat', 'LM p-val', 'F-Stat', 'F p-val'] 
+print(dict(zip(labels, breusch_pagan_test_results)))
+del labels
+
+# Autocorrelation of residuals test
+durbin_watson_test_results = durbin_watson(pooled_OLS_dataset['residual']) 
+print(durbin_watson_test_results)
